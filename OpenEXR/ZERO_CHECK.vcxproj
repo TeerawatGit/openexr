@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{CC898E07-42FE-335C-A29D-F45FD12C09F9}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ZERO_CHECK</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\config;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtil;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmaketiled;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrenvmap;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmakepreview;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmultiview;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfFuzzTest;C:\Program Files (x86)\GnuWin32\include;C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\_build\include\OpenEXR;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\config;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtil;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmaketiled;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrenvmap;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmakepreview;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmultiview;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfFuzzTest;C:\Program Files (x86)\GnuWin32\include;C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\_build\include\OpenEXR;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\config;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtil;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmaketiled;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrenvmap;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmakepreview;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmultiview;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfFuzzTest;C:\Program Files (x86)\GnuWin32\include;C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\_build\include\OpenEXR;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\config;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtil;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmaketiled;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrenvmap;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmakepreview;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmultiview;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfFuzzTest;C:\Program Files (x86)\GnuWin32\include;C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\_build\include\OpenEXR;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\CMakeFiles\de76f48614d2eecc4e174175fc33c2f2\generate.stamp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR -BC:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "$(SolutionPath)"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/CMakeFiles/de76f48614d2eecc4e174175fc33c2f2/generate.stamp.rule;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CPack.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CPackComponent.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindZLIB.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\SelectLibraryConfigurations.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Templates\CPackConfig.cmake.in;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\CMakeFiles\3.5.2\CMakeCCompiler.cmake;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\CMakeFiles\3.5.2\CMakeCXXCompiler.cmake;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\CMakeFiles\3.5.2\CMakeRCCompiler.cmake;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\CMakeFiles\3.5.2\CMakeSystem.cmake;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\CMakeLists.txt;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\CMakeLists.txt;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfExamples\CMakeLists.txt;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfFuzzTest\CMakeLists.txt;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfTest\CMakeLists.txt;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtil\CMakeLists.txt;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtilTest\CMakeLists.txt;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrenvmap\CMakeLists.txt;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrheader\CMakeLists.txt;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmakepreview\CMakeLists.txt;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmaketiled\CMakeLists.txt;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmultipart\CMakeLists.txt;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmultiview\CMakeLists.txt;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrstdattr\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\CMakeFiles\generate.stamp;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\CMakeFiles\generate.stamp;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtil\CMakeFiles\generate.stamp;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfExamples\CMakeFiles\generate.stamp;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfTest\CMakeFiles\generate.stamp;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtilTest\CMakeFiles\generate.stamp;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfFuzzTest\CMakeFiles\generate.stamp;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrheader\CMakeFiles\generate.stamp;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmaketiled\CMakeFiles\generate.stamp;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrstdattr\CMakeFiles\generate.stamp;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmakepreview\CMakeFiles\generate.stamp;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrenvmap\CMakeFiles\generate.stamp;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmultiview\CMakeFiles\generate.stamp;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmultipart\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR -BC:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "$(SolutionPath)"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/CMakeFiles/de76f48614d2eecc4e174175fc33c2f2/generate.stamp.rule;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CPack.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CPackComponent.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindZLIB.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\SelectLibraryConfigurations.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Templates\CPackConfig.cmake.in;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\CMakeFiles\3.5.2\CMakeCCompiler.cmake;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\CMakeFiles\3.5.2\CMakeCXXCompiler.cmake;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\CMakeFiles\3.5.2\CMakeRCCompiler.cmake;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\CMakeFiles\3.5.2\CMakeSystem.cmake;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\CMakeLists.txt;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\CMakeLists.txt;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfExamples\CMakeLists.txt;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfFuzzTest\CMakeLists.txt;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfTest\CMakeLists.txt;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtil\CMakeLists.txt;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtilTest\CMakeLists.txt;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrenvmap\CMakeLists.txt;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrheader\CMakeLists.txt;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmakepreview\CMakeLists.txt;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmaketiled\CMakeLists.txt;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmultipart\CMakeLists.txt;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmultiview\CMakeLists.txt;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrstdattr\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\CMakeFiles\generate.stamp;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\CMakeFiles\generate.stamp;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtil\CMakeFiles\generate.stamp;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfExamples\CMakeFiles\generate.stamp;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfTest\CMakeFiles\generate.stamp;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtilTest\CMakeFiles\generate.stamp;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfFuzzTest\CMakeFiles\generate.stamp;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrheader\CMakeFiles\generate.stamp;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmaketiled\CMakeFiles\generate.stamp;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrstdattr\CMakeFiles\generate.stamp;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmakepreview\CMakeFiles\generate.stamp;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrenvmap\CMakeFiles\generate.stamp;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmultiview\CMakeFiles\generate.stamp;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmultipart\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR -BC:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "$(SolutionPath)"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/CMakeFiles/de76f48614d2eecc4e174175fc33c2f2/generate.stamp.rule;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CPack.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CPackComponent.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindZLIB.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\SelectLibraryConfigurations.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Templates\CPackConfig.cmake.in;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\CMakeFiles\3.5.2\CMakeCCompiler.cmake;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\CMakeFiles\3.5.2\CMakeCXXCompiler.cmake;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\CMakeFiles\3.5.2\CMakeRCCompiler.cmake;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\CMakeFiles\3.5.2\CMakeSystem.cmake;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\CMakeLists.txt;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\CMakeLists.txt;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfExamples\CMakeLists.txt;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfFuzzTest\CMakeLists.txt;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfTest\CMakeLists.txt;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtil\CMakeLists.txt;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtilTest\CMakeLists.txt;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrenvmap\CMakeLists.txt;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrheader\CMakeLists.txt;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmakepreview\CMakeLists.txt;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmaketiled\CMakeLists.txt;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmultipart\CMakeLists.txt;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmultiview\CMakeLists.txt;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrstdattr\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\CMakeFiles\generate.stamp;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\CMakeFiles\generate.stamp;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtil\CMakeFiles\generate.stamp;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfExamples\CMakeFiles\generate.stamp;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfTest\CMakeFiles\generate.stamp;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtilTest\CMakeFiles\generate.stamp;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfFuzzTest\CMakeFiles\generate.stamp;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrheader\CMakeFiles\generate.stamp;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmaketiled\CMakeFiles\generate.stamp;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrstdattr\CMakeFiles\generate.stamp;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmakepreview\CMakeFiles\generate.stamp;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrenvmap\CMakeFiles\generate.stamp;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmultiview\CMakeFiles\generate.stamp;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmultipart\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR -BC:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "$(SolutionPath)"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/CMakeFiles/de76f48614d2eecc4e174175fc33c2f2/generate.stamp.rule;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CPack.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CPackComponent.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindZLIB.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\SelectLibraryConfigurations.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Templates\CPackConfig.cmake.in;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\CMakeFiles\3.5.2\CMakeCCompiler.cmake;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\CMakeFiles\3.5.2\CMakeCXXCompiler.cmake;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\CMakeFiles\3.5.2\CMakeRCCompiler.cmake;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\CMakeFiles\3.5.2\CMakeSystem.cmake;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\CMakeLists.txt;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\CMakeLists.txt;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfExamples\CMakeLists.txt;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfFuzzTest\CMakeLists.txt;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfTest\CMakeLists.txt;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtil\CMakeLists.txt;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtilTest\CMakeLists.txt;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrenvmap\CMakeLists.txt;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrheader\CMakeLists.txt;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmakepreview\CMakeLists.txt;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmaketiled\CMakeLists.txt;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmultipart\CMakeLists.txt;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmultiview\CMakeLists.txt;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrstdattr\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\CMakeFiles\generate.stamp;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\CMakeFiles\generate.stamp;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtil\CMakeFiles\generate.stamp;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfExamples\CMakeFiles\generate.stamp;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfTest\CMakeFiles\generate.stamp;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtilTest\CMakeFiles\generate.stamp;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfFuzzTest\CMakeFiles\generate.stamp;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrheader\CMakeFiles\generate.stamp;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmaketiled\CMakeFiles\generate.stamp;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrstdattr\CMakeFiles\generate.stamp;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmakepreview\CMakeFiles\generate.stamp;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrenvmap\CMakeFiles\generate.stamp;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmultiview\CMakeFiles\generate.stamp;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmultipart\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

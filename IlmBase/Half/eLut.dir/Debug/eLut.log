@@ -1,0 +1,31 @@
+﻿Build started 20/4/2559 14:13:56.
+     1>Project "C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Half\eLut.vcxproj" on node 3 (Rebuild target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/Half/CMakeLists.txt
+         CMake does not need to re-run because C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Half\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IC:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Half /IC:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex /IC:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\IexMath /IC:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Imath /IC:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\config /IC:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\IlmThread /IC:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\IexTest /IC:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest /IC:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\HalfTest /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D OPENEXR_DLL /D HALF_EXPORTS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"eLut.dir\Debug\\" /Fd"eLut.dir\Debug\vc120.pdb" /Gd /TP /errorReport:prompt C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Half\eLut.cpp
+         eLut.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Half\Debug\eLut.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/Half/Debug/eLut.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/Half/Debug/eLut.lib" /MACHINE:X64  /machine:x64 eLut.dir\Debug\eLut.obj
+         eLut.vcxproj -> C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Half\Debug\eLut.exe
+       PostBuildEvent:
+         setlocal
+         cd C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Half
+         if %errorlevel% neq 0 goto :cmEnd
+         C:
+         if %errorlevel% neq 0 goto :cmEnd
+         C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Half\Debug\eLut.exe > C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/Half/eLut.h
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         :VCEnd
+     1>Done Building Project "C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Half\eLut.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.86

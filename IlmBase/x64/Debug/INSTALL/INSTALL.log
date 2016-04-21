@@ -1,0 +1,87 @@
+﻿Build started 20/4/2559 14:14:38.
+     1>Project "C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\INSTALL.vcxproj" on node 2 (Build target(s)).
+     1>PostBuildEvent:
+         setlocal
+         "C:\Program Files (x86)\CMake\bin\cmake.exe" -DBUILD_TYPE=Debug -P cmake_install.cmake
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         :VCEnd
+         -- Install configuration: "Debug"
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/include/OpenEXR/IlmBaseConfig.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/lib/pkgconfig/IlmBase.pc
+         -- Installing: C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/lib/Half.lib
+         -- Installing: C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/lib/Half.dll
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/include/OpenEXR/half.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/include/OpenEXR/halfFunction.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/include/OpenEXR/halfExport.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/include/OpenEXR/halfLimits.h
+         -- Installing: C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/lib/Iex-2_2.lib
+         -- Installing: C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/lib/Iex-2_2.dll
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/include/OpenEXR/IexBaseExc.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/include/OpenEXR/IexMathExc.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/include/OpenEXR/IexThrowErrnoExc.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/include/OpenEXR/IexErrnoExc.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/include/OpenEXR/IexMacros.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/include/OpenEXR/Iex.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/include/OpenEXR/IexNamespace.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/include/OpenEXR/IexExport.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/include/OpenEXR/IexForward.h
+         -- Installing: C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/lib/IexMath-2_2.lib
+         -- Installing: C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/lib/IexMath-2_2.dll
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/include/OpenEXR/IexMathFloatExc.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/include/OpenEXR/IexMathFpu.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/include/OpenEXR/IexMathIeeeExc.h
+         -- Installing: C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/lib/Imath-2_2.lib
+         -- Installing: C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/lib/Imath-2_2.dll
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/include/OpenEXR/ImathBoxAlgo.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/include/OpenEXR/ImathBox.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/include/OpenEXR/ImathColorAlgo.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/include/OpenEXR/ImathColor.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/include/OpenEXR/ImathEuler.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/include/OpenEXR/ImathExc.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/include/OpenEXR/ImathExport.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/include/OpenEXR/ImathForward.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/include/OpenEXR/ImathFrame.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/include/OpenEXR/ImathFrustum.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/include/OpenEXR/ImathFrustumTest.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/include/OpenEXR/ImathFun.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/include/OpenEXR/ImathGL.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/include/OpenEXR/ImathGLU.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/include/OpenEXR/ImathHalfLimits.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/include/OpenEXR/ImathInt64.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/include/OpenEXR/ImathInterval.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/include/OpenEXR/ImathLimits.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/include/OpenEXR/ImathLineAlgo.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/include/OpenEXR/ImathLine.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/include/OpenEXR/ImathMath.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/include/OpenEXR/ImathMatrixAlgo.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/include/OpenEXR/ImathMatrix.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/include/OpenEXR/ImathNamespace.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/include/OpenEXR/ImathPlane.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/include/OpenEXR/ImathPlatform.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/include/OpenEXR/ImathQuat.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/include/OpenEXR/ImathRandom.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/include/OpenEXR/ImathRoots.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/include/OpenEXR/ImathShear.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/include/OpenEXR/ImathSphere.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/include/OpenEXR/ImathVecAlgo.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/include/OpenEXR/ImathVec.h
+         -- Installing: C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/lib/IlmThread-2_2.lib
+         -- Installing: C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/lib/IlmThread-2_2.dll
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/include/OpenEXR/IlmThreadPool.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/include/OpenEXR/IlmThread.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/include/OpenEXR/IlmThreadSemaphore.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/include/OpenEXR/IlmThreadMutex.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/include/OpenEXR/IlmThreadNamespace.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/include/OpenEXR/IlmThreadExport.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/include/OpenEXR/IlmThreadForward.h
+     1>Done Building Project "C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\INSTALL.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.39

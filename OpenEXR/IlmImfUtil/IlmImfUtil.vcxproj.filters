@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtil\ImfImageChannel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtil\ImfFlatImageChannel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtil\ImfDeepImageChannel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtil\ImfSampleCountChannel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtil\ImfImageLevel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtil\ImfFlatImageLevel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtil\ImfDeepImageLevel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtil\ImfImage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtil\ImfFlatImage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtil\ImfDeepImage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtil\ImfImageIO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtil\ImfFlatImageIO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtil\ImfDeepImageIO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtil\ImfImageDataWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtil\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{62295936-72ED-3E52-80BD-69F60E9BE136}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

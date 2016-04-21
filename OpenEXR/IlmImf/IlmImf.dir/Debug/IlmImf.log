@@ -1,0 +1,204 @@
+﻿Build started 20/4/2559 17:25:05.
+     1>Project "C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\IlmImf.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IC:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf /IC:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\config /IC:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtil /IC:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmaketiled /IC:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrenvmap /IC:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmakepreview /IC:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmultiview /IC:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfFuzzTest /I"C:\Program Files (x86)\GnuWin32\include" /IC:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\_build\include\OpenEXR /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D HAVE_CONFIG_H /D "ILM_IMF_TEST_IMAGEDIR=\"C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/IlmImfTest/\"" /D OPENEXR_DLL /D ILMIMF_EXPORTS /D "CMAKE_INTDIR=\"Debug\"" /D IlmImf_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"IlmImf.dir\Debug\\" /Fd"IlmImf.dir\Debug\vc120.pdb" /Gd /TP /errorReport:prompt C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfB44Compressor.cpp C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfDwaCompressor.cpp
+         ImfB44Compressor.cpp
+     1>c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(143): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::ArgExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(143) : see declaration of 'Iex_2_2::ArgExc'
+     1>c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(145): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::LogicExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(145) : see declaration of 'Iex_2_2::LogicExc'
+     1>c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(150): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::InputExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(150) : see declaration of 'Iex_2_2::InputExc'
+     1>c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(152): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::IoExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(152) : see declaration of 'Iex_2_2::IoExc'
+     1>c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(154): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::MathExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(154) : see declaration of 'Iex_2_2::MathExc'
+     1>c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(158): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::ErrnoExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(158) : see declaration of 'Iex_2_2::ErrnoExc'
+     1>c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(163): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::NoImplExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(163) : see declaration of 'Iex_2_2::NoImplExc'
+     1>c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(169): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::NullExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(169) : see declaration of 'Iex_2_2::NullExc'
+     1>c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(171): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::TypeExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(171) : see declaration of 'Iex_2_2::TypeExc'
+     1>c:\users\teeerawat\desktop\openexr\openexr\openexr\ilmimf\ImfName.h(104): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : see declaration of 'strncpy'
+     1>c:\users\teeerawat\desktop\openexr\openexr\openexr\ilmimf\ImfHeader.h(428): warning C4251: 'Imf_2_2::Header::_map' : class 'std::map<Imf_2_2::Name,Imf_2_2::Attribute *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'Imf_2_2::Header'
+                 with
+                 [
+                     _Kty=Imf_2_2::Name
+         ,            _Ty=Imf_2_2::Attribute *
+                 ]
+     1>c:\users\teeerawat\desktop\openexr\openexr\openexr\ilmimf\ImfChannelList.h(265): warning C4251: 'Imf_2_2::ChannelList::_map' : class 'std::map<Imf_2_2::Name,Imf_2_2::Channel,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'Imf_2_2::ChannelList'
+                 with
+                 [
+                     _Kty=Imf_2_2::Name
+         ,            _Ty=Imf_2_2::Channel
+                 ]
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfIO.h(147): warning C4251: 'Imf_2_2::IStream::_fileName' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Imf_2_2::IStream'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfIO.h(210): warning C4251: 'Imf_2_2::OStream::_fileName' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Imf_2_2::OStream'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfB44Compressor.cpp(486): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfB44Compressor.cpp(862): warning C4244: 'return' : conversion from '__int64' to 'int', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfB44Compressor.cpp(1068): warning C4244: 'return' : conversion from '__int64' to 'int', possible loss of data
+         ImfDwaCompressor.cpp
+     1>c:\users\teeerawat\desktop\openexr\openexr\openexr\ilmimf\ImfName.h(104): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : see declaration of 'strncpy'
+     1>c:\users\teeerawat\desktop\openexr\openexr\openexr\ilmimf\ImfChannelList.h(265): warning C4251: 'Imf_2_2::ChannelList::_map' : class 'std::map<Imf_2_2::Name,Imf_2_2::Channel,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'Imf_2_2::ChannelList'
+                 with
+                 [
+                     _Kty=Imf_2_2::Name
+         ,            _Ty=Imf_2_2::Channel
+                 ]
+     1>c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(143): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::ArgExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(143) : see declaration of 'Iex_2_2::ArgExc'
+     1>c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(145): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::LogicExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(145) : see declaration of 'Iex_2_2::LogicExc'
+     1>c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(150): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::InputExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(150) : see declaration of 'Iex_2_2::InputExc'
+     1>c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(152): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::IoExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(152) : see declaration of 'Iex_2_2::IoExc'
+     1>c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(154): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::MathExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(154) : see declaration of 'Iex_2_2::MathExc'
+     1>c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(158): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::ErrnoExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(158) : see declaration of 'Iex_2_2::ErrnoExc'
+     1>c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(163): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::NoImplExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(163) : see declaration of 'Iex_2_2::NoImplExc'
+     1>c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(169): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::NullExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(169) : see declaration of 'Iex_2_2::NullExc'
+     1>c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(171): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::TypeExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(171) : see declaration of 'Iex_2_2::TypeExc'
+     1>c:\users\teeerawat\desktop\openexr\openexr\openexr\ilmimf\ImfHeader.h(428): warning C4251: 'Imf_2_2::Header::_map' : class 'std::map<Imf_2_2::Name,Imf_2_2::Attribute *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'Imf_2_2::Header'
+                 with
+                 [
+                     _Kty=Imf_2_2::Name
+         ,            _Ty=Imf_2_2::Attribute *
+                 ]
+     1>c:\users\teeerawat\desktop\openexr\openexr\openexr\ilmimf\ImfIO.h(147): warning C4251: 'Imf_2_2::IStream::_fileName' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Imf_2_2::IStream'
+     1>c:\users\teeerawat\desktop\openexr\openexr\openexr\ilmimf\ImfIO.h(210): warning C4251: 'Imf_2_2::OStream::_fileName' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Imf_2_2::OStream'
+     1>c:\users\teeerawat\desktop\openexr\openexr\openexr\ilmimf\ImfChromaticities.h(62): warning C4251: 'Imf_2_2::Chromaticities::red' : class 'Imath_2_2::Vec2<float>' needs to have dll-interface to be used by clients of struct 'Imf_2_2::Chromaticities'
+     1>c:\users\teeerawat\desktop\openexr\openexr\openexr\ilmimf\ImfChromaticities.h(63): warning C4251: 'Imf_2_2::Chromaticities::green' : class 'Imath_2_2::Vec2<float>' needs to have dll-interface to be used by clients of struct 'Imf_2_2::Chromaticities'
+     1>c:\users\teeerawat\desktop\openexr\openexr\openexr\ilmimf\ImfChromaticities.h(64): warning C4251: 'Imf_2_2::Chromaticities::blue' : class 'Imath_2_2::Vec2<float>' needs to have dll-interface to be used by clients of struct 'Imf_2_2::Chromaticities'
+     1>c:\users\teeerawat\desktop\openexr\openexr\openexr\ilmimf\ImfChromaticities.h(65): warning C4251: 'Imf_2_2::Chromaticities::white' : class 'Imath_2_2::Vec2<float>' needs to have dll-interface to be used by clients of struct 'Imf_2_2::Chromaticities'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfDwaCompressor.cpp(702): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfDwaCompressor.cpp(756): warning C4018: '<' : signed/unsigned mismatch
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfDwaCompressor.cpp(785): warning C4018: '<' : signed/unsigned mismatch
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfDwaCompressor.cpp(941): warning C4018: '<' : signed/unsigned mismatch
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfDwaCompressor.cpp(1139): warning C4018: '<' : signed/unsigned mismatch
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfDwaCompressor.cpp(1914): warning C4267: '+=' : conversion from 'size_t' to 'unsigned short', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfDwaCompressor.cpp(2423): warning C4267: '-=' : conversion from 'size_t' to 'unsigned short', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfDwaCompressor.cpp(2993): warning C4267: '+=' : conversion from 'size_t' to 'int', possible loss of data
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\Debug\IlmImf-2_2.dll" /INCREMENTAL /NOLOGO /LIBPATH:C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/lib /LIBPATH:C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/lib/Debug kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib Half.lib "Iex-2_2.lib" "Imath-2_2.lib" "IlmThread-2_2.lib" "C:\Program Files (x86)\GnuWin32\lib\zlib.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/IlmImf/Debug/IlmImf-2_2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/IlmImf/Debug/IlmImf-2_2.lib" /MACHINE:X64  /machine:x64 /DLL IlmImf.dir\Debug\ImfAttribute.obj
+         IlmImf.dir\Debug\ImfBoxAttribute.obj
+         IlmImf.dir\Debug\ImfCRgbaFile.obj
+         IlmImf.dir\Debug\ImfChannelList.obj
+         IlmImf.dir\Debug\ImfChannelListAttribute.obj
+         IlmImf.dir\Debug\ImfFloatAttribute.obj
+         IlmImf.dir\Debug\ImfFrameBuffer.obj
+         IlmImf.dir\Debug\ImfHeader.obj
+         IlmImf.dir\Debug\ImfIO.obj
+         IlmImf.dir\Debug\ImfInputFile.obj
+         IlmImf.dir\Debug\ImfIntAttribute.obj
+         IlmImf.dir\Debug\ImfLineOrderAttribute.obj
+         IlmImf.dir\Debug\ImfMatrixAttribute.obj
+         IlmImf.dir\Debug\ImfOpaqueAttribute.obj
+         IlmImf.dir\Debug\ImfOutputFile.obj
+         IlmImf.dir\Debug\ImfRgbaFile.obj
+         IlmImf.dir\Debug\ImfStringAttribute.obj
+         IlmImf.dir\Debug\ImfVecAttribute.obj
+         IlmImf.dir\Debug\ImfHuf.obj
+         IlmImf.dir\Debug\ImfThreading.obj
+         IlmImf.dir\Debug\ImfWav.obj
+         IlmImf.dir\Debug\ImfLut.obj
+         IlmImf.dir\Debug\ImfCompressor.obj
+         IlmImf.dir\Debug\ImfRleCompressor.obj
+         IlmImf.dir\Debug\ImfZipCompressor.obj
+         IlmImf.dir\Debug\ImfPizCompressor.obj
+         IlmImf.dir\Debug\ImfB44Compressor.obj
+         IlmImf.dir\Debug\ImfDwaCompressor.obj
+         IlmImf.dir\Debug\ImfMisc.obj
+         IlmImf.dir\Debug\ImfCompressionAttribute.obj
+         IlmImf.dir\Debug\ImfDoubleAttribute.obj
+         IlmImf.dir\Debug\ImfConvert.obj
+         IlmImf.dir\Debug\ImfPreviewImage.obj
+         IlmImf.dir\Debug\ImfPreviewImageAttribute.obj
+         IlmImf.dir\Debug\ImfVersion.obj
+         IlmImf.dir\Debug\ImfChromaticities.obj
+         IlmImf.dir\Debug\ImfChromaticitiesAttribute.obj
+         IlmImf.dir\Debug\ImfKeyCode.obj
+         IlmImf.dir\Debug\ImfKeyCodeAttribute.obj
+         IlmImf.dir\Debug\ImfTimeCode.obj
+         IlmImf.dir\Debug\ImfTimeCodeAttribute.obj
+         IlmImf.dir\Debug\ImfRational.obj
+         IlmImf.dir\Debug\ImfRationalAttribute.obj
+         IlmImf.dir\Debug\ImfFramesPerSecond.obj
+         IlmImf.dir\Debug\ImfStandardAttributes.obj
+         IlmImf.dir\Debug\ImfStdIO.obj
+         IlmImf.dir\Debug\ImfEnvmap.obj
+         IlmImf.dir\Debug\ImfEnvmapAttribute.obj
+         IlmImf.dir\Debug\ImfScanLineInputFile.obj
+         IlmImf.dir\Debug\ImfTiledInputFile.obj
+         IlmImf.dir\Debug\ImfTiledMisc.obj
+         IlmImf.dir\Debug\ImfTiledOutputFile.obj
+         IlmImf.dir\Debug\ImfTiledRgbaFile.obj
+         IlmImf.dir\Debug\ImfTileDescriptionAttribute.obj
+         IlmImf.dir\Debug\ImfTileOffsets.obj
+         IlmImf.dir\Debug\ImfRgbaYca.obj
+         IlmImf.dir\Debug\ImfPxr24Compressor.obj
+         IlmImf.dir\Debug\ImfTestFile.obj
+         IlmImf.dir\Debug\ImfStringVectorAttribute.obj
+         IlmImf.dir\Debug\ImfMultiView.obj
+         IlmImf.dir\Debug\ImfAcesFile.obj
+         IlmImf.dir\Debug\ImfMultiPartOutputFile.obj
+         IlmImf.dir\Debug\ImfGenericOutputFile.obj
+         IlmImf.dir\Debug\ImfOutputPartData.obj
+         IlmImf.dir\Debug\ImfMultiPartInputFile.obj
+         IlmImf.dir\Debug\ImfGenericInputFile.obj
+         IlmImf.dir\Debug\ImfPartType.obj
+         IlmImf.dir\Debug\ImfInputPartData.obj
+         IlmImf.dir\Debug\ImfOutputPart.obj
+         IlmImf.dir\Debug\ImfTiledOutputPart.obj
+         IlmImf.dir\Debug\ImfInputPart.obj
+         IlmImf.dir\Debug\ImfTiledInputPart.obj
+         IlmImf.dir\Debug\ImfDeepScanLineInputPart.obj
+         IlmImf.dir\Debug\ImfDeepScanLineOutputPart.obj
+         IlmImf.dir\Debug\ImfDeepScanLineInputFile.obj
+         IlmImf.dir\Debug\ImfDeepScanLineOutputFile.obj
+         IlmImf.dir\Debug\ImfDeepTiledInputPart.obj
+         IlmImf.dir\Debug\ImfDeepTiledOutputPart.obj
+         IlmImf.dir\Debug\ImfDeepTiledInputFile.obj
+         IlmImf.dir\Debug\ImfDeepTiledOutputFile.obj
+         IlmImf.dir\Debug\ImfDeepFrameBuffer.obj
+         IlmImf.dir\Debug\ImfDeepCompositing.obj
+         IlmImf.dir\Debug\ImfCompositeDeepScanLine.obj
+         IlmImf.dir\Debug\ImfDeepImageStateAttribute.obj
+         IlmImf.dir\Debug\ImfFastHuf.obj
+         IlmImf.dir\Debug\ImfFloatVectorAttribute.obj
+         IlmImf.dir\Debug\ImfRle.obj
+         IlmImf.dir\Debug\ImfSystemSpecific.obj
+         IlmImf.dir\Debug\ImfZip.obj
+         IlmImf.vcxproj -> C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\Debug\IlmImf-2_2.dll
+     1>Done Building Project "C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\IlmImf.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.93

@@ -1,0 +1,23 @@
+﻿Build started 20/4/2559 17:21:28.
+     1>Project "C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\ZERO_CHECK.vcxproj" on node 2 (Rebuild target(s)).
+     1>CustomBuild:
+         Checking Build System
+         CMake does not need to re-run because C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/IlmImf/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/IlmImfUtil/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/IlmImfExamples/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/IlmImfTest/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/IlmImfUtilTest/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/IlmImfFuzzTest/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/exrheader/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/exrmaketiled/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/exrstdattr/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/exrmakepreview/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/exrenvmap/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/exrmultiview/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/exrmultipart/CMakeFiles/generate.stamp is up-to-date.
+     1>Done Building Project "C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\ZERO_CHECK.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.56

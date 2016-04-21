@@ -1,0 +1,532 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{67147D0D-2E4B-378E-BBCB-1C424DC65B7F}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>IlmImf</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">IlmImf.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">IlmImf-2_2</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">IlmImf.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">IlmImf-2_2</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">IlmImf.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">IlmImf-2_2</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">IlmImf.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">IlmImf-2_2</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\config;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtil;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmaketiled;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrenvmap;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmakepreview;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmultiview;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfFuzzTest;C:\Program Files (x86)\GnuWin32\include;C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\_build\include\OpenEXR;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;HAVE_CONFIG_H;ILM_IMF_TEST_IMAGEDIR="C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/IlmImfTest/";OPENEXR_DLL;ILMIMF_EXPORTS;CMAKE_INTDIR="Debug";IlmImf_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;HAVE_CONFIG_H;ILM_IMF_TEST_IMAGEDIR=\"C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/IlmImfTest/\";OPENEXR_DLL;ILMIMF_EXPORTS;CMAKE_INTDIR=\"Debug\";IlmImf_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\config;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtil;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmaketiled;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrenvmap;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmakepreview;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmultiview;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfFuzzTest;C:\Program Files (x86)\GnuWin32\include;C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\_build\include\OpenEXR;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\config;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtil;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmaketiled;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrenvmap;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmakepreview;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmultiview;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfFuzzTest;C:\Program Files (x86)\GnuWin32\include;C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\_build\include\OpenEXR;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;Half.lib;Iex-2_2.lib;Imath-2_2.lib;IlmThread-2_2.lib;C:\Program Files (x86)\GnuWin32\lib\zlib.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/lib;C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/IlmImf/Debug/IlmImf-2_2.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/IlmImf/Debug/IlmImf-2_2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\config;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtil;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmaketiled;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrenvmap;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmakepreview;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmultiview;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfFuzzTest;C:\Program Files (x86)\GnuWin32\include;C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\_build\include\OpenEXR;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;HAVE_CONFIG_H;ILM_IMF_TEST_IMAGEDIR="C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/IlmImfTest/";OPENEXR_DLL;ILMIMF_EXPORTS;CMAKE_INTDIR="Release";IlmImf_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;HAVE_CONFIG_H;ILM_IMF_TEST_IMAGEDIR=\"C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/IlmImfTest/\";OPENEXR_DLL;ILMIMF_EXPORTS;CMAKE_INTDIR=\"Release\";IlmImf_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\config;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtil;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmaketiled;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrenvmap;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmakepreview;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmultiview;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfFuzzTest;C:\Program Files (x86)\GnuWin32\include;C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\_build\include\OpenEXR;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\config;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtil;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmaketiled;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrenvmap;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmakepreview;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmultiview;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfFuzzTest;C:\Program Files (x86)\GnuWin32\include;C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\_build\include\OpenEXR;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;Half.lib;Iex-2_2.lib;Imath-2_2.lib;IlmThread-2_2.lib;C:\Program Files (x86)\GnuWin32\lib\zlib.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/lib;C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/IlmImf/Release/IlmImf-2_2.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/IlmImf/Release/IlmImf-2_2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\config;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtil;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmaketiled;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrenvmap;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmakepreview;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmultiview;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfFuzzTest;C:\Program Files (x86)\GnuWin32\include;C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\_build\include\OpenEXR;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;HAVE_CONFIG_H;ILM_IMF_TEST_IMAGEDIR="C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/IlmImfTest/";OPENEXR_DLL;ILMIMF_EXPORTS;CMAKE_INTDIR="MinSizeRel";IlmImf_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;HAVE_CONFIG_H;ILM_IMF_TEST_IMAGEDIR=\"C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/IlmImfTest/\";OPENEXR_DLL;ILMIMF_EXPORTS;CMAKE_INTDIR=\"MinSizeRel\";IlmImf_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\config;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtil;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmaketiled;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrenvmap;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmakepreview;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmultiview;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfFuzzTest;C:\Program Files (x86)\GnuWin32\include;C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\_build\include\OpenEXR;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\config;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtil;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmaketiled;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrenvmap;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmakepreview;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmultiview;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfFuzzTest;C:\Program Files (x86)\GnuWin32\include;C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\_build\include\OpenEXR;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;Half.lib;Iex-2_2.lib;Imath-2_2.lib;IlmThread-2_2.lib;C:\Program Files (x86)\GnuWin32\lib\zlib.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/lib;C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/IlmImf/MinSizeRel/IlmImf-2_2.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/IlmImf/MinSizeRel/IlmImf-2_2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\config;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtil;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmaketiled;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrenvmap;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmakepreview;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmultiview;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfFuzzTest;C:\Program Files (x86)\GnuWin32\include;C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\_build\include\OpenEXR;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;HAVE_CONFIG_H;ILM_IMF_TEST_IMAGEDIR="C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/IlmImfTest/";OPENEXR_DLL;ILMIMF_EXPORTS;CMAKE_INTDIR="RelWithDebInfo";IlmImf_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;HAVE_CONFIG_H;ILM_IMF_TEST_IMAGEDIR=\"C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/IlmImfTest/\";OPENEXR_DLL;ILMIMF_EXPORTS;CMAKE_INTDIR=\"RelWithDebInfo\";IlmImf_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\config;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtil;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmaketiled;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrenvmap;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmakepreview;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmultiview;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfFuzzTest;C:\Program Files (x86)\GnuWin32\include;C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\_build\include\OpenEXR;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\config;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtil;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmaketiled;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrenvmap;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmakepreview;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmultiview;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfFuzzTest;C:\Program Files (x86)\GnuWin32\include;C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\_build\include\OpenEXR;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;Half.lib;Iex-2_2.lib;Imath-2_2.lib;IlmThread-2_2.lib;C:\Program Files (x86)\GnuWin32\lib\zlib.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/lib;C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/IlmImf/RelWithDebInfo/IlmImf-2_2.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/IlmImf/RelWithDebInfo/IlmImf-2_2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/IlmImf/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR -BC:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR --check-stamp-file C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/IlmImf/CMakeLists.txt;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\CMakeLists.txt;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/IlmImf/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR -BC:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR --check-stamp-file C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/IlmImf/CMakeLists.txt;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\CMakeLists.txt;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/IlmImf/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR -BC:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR --check-stamp-file C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/IlmImf/CMakeLists.txt;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\CMakeLists.txt;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/IlmImf/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR -BC:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR --check-stamp-file C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/IlmImf/CMakeLists.txt;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\CMakeLists.txt;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\CMakeFiles\8188145a8f96c175df9a738236b30b58\b44ExpLogTable.h.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating b44ExpLogTable.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+$(Configuration)\b44ExpLogTable &gt; C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/IlmImf/b44ExpLogTable.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/CMakeFiles/8188145a8f96c175df9a738236b30b58/b44ExpLogTable.h.rule;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\Debug\b44ExpLogTable.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\b44ExpLogTable.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating b44ExpLogTable.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+$(Configuration)\b44ExpLogTable &gt; C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/IlmImf/b44ExpLogTable.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/CMakeFiles/8188145a8f96c175df9a738236b30b58/b44ExpLogTable.h.rule;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\Release\b44ExpLogTable.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\b44ExpLogTable.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating b44ExpLogTable.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+$(Configuration)\b44ExpLogTable &gt; C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/IlmImf/b44ExpLogTable.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/CMakeFiles/8188145a8f96c175df9a738236b30b58/b44ExpLogTable.h.rule;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\MinSizeRel\b44ExpLogTable.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\b44ExpLogTable.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating b44ExpLogTable.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+$(Configuration)\b44ExpLogTable &gt; C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/IlmImf/b44ExpLogTable.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/CMakeFiles/8188145a8f96c175df9a738236b30b58/b44ExpLogTable.h.rule;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\RelWithDebInfo\b44ExpLogTable.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\b44ExpLogTable.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\CMakeFiles\8188145a8f96c175df9a738236b30b58\dwaLookups.h.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating dwaLookups.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+$(Configuration)\dwaLookups &gt; C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/IlmImf/dwaLookups.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/CMakeFiles/8188145a8f96c175df9a738236b30b58/dwaLookups.h.rule;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\Debug\dwaLookups.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\dwaLookups.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating dwaLookups.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+$(Configuration)\dwaLookups &gt; C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/IlmImf/dwaLookups.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/CMakeFiles/8188145a8f96c175df9a738236b30b58/dwaLookups.h.rule;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\Release\dwaLookups.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\dwaLookups.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating dwaLookups.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+$(Configuration)\dwaLookups &gt; C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/IlmImf/dwaLookups.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/CMakeFiles/8188145a8f96c175df9a738236b30b58/dwaLookups.h.rule;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\MinSizeRel\dwaLookups.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\dwaLookups.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating dwaLookups.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+$(Configuration)\dwaLookups &gt; C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/IlmImf/dwaLookups.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/CMakeFiles/8188145a8f96c175df9a738236b30b58/dwaLookups.h.rule;C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\RelWithDebInfo\dwaLookups.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\dwaLookups.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfAttribute.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfBoxAttribute.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfCRgbaFile.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfChannelList.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfChannelListAttribute.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfFloatAttribute.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfFrameBuffer.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfHeader.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfIO.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfInputFile.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfIntAttribute.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfLineOrderAttribute.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfMatrixAttribute.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfOpaqueAttribute.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfOutputFile.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfRgbaFile.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfStringAttribute.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfVecAttribute.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfHuf.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfThreading.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfWav.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfLut.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfCompressor.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfRleCompressor.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfZipCompressor.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfPizCompressor.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfB44Compressor.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfDwaCompressor.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfMisc.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfCompressionAttribute.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfDoubleAttribute.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfConvert.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfPreviewImage.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfPreviewImageAttribute.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfVersion.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfChromaticities.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfChromaticitiesAttribute.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfKeyCode.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfKeyCodeAttribute.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfTimeCode.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfTimeCodeAttribute.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfRational.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfRationalAttribute.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfFramesPerSecond.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfStandardAttributes.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfStdIO.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfEnvmap.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfEnvmapAttribute.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfScanLineInputFile.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfTiledInputFile.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfTiledMisc.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfTiledOutputFile.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfTiledRgbaFile.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfTileDescriptionAttribute.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfTileOffsets.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfRgbaYca.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfPxr24Compressor.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfTestFile.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfStringVectorAttribute.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfMultiView.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfAcesFile.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfMultiPartOutputFile.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfGenericOutputFile.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfOutputPartData.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfMultiPartInputFile.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfGenericInputFile.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfPartType.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfInputPartData.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfOutputPart.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfTiledOutputPart.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfInputPart.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfTiledInputPart.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfDeepScanLineInputPart.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfDeepScanLineOutputPart.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfDeepScanLineInputFile.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfDeepScanLineOutputFile.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfDeepTiledInputPart.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfDeepTiledOutputPart.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfDeepTiledInputFile.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfDeepTiledOutputFile.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfDeepFrameBuffer.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfDeepCompositing.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfCompositeDeepScanLine.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfDeepImageStateAttribute.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfFastHuf.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfFloatVectorAttribute.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfRle.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfSystemSpecific.cpp"  />
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfZip.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/ZERO_CHECK.vcxproj">
+      <Project>CC898E07-42FE-335C-A29D-F45FD12C09F9</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/IlmImf/b44ExpLogTable.vcxproj">
+      <Project>80A2BAFD-F93C-3ECC-9654-71130F805005</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/IlmImf/dwaLookups.vcxproj">
+      <Project>7C9BAA0A-173D-33AE-824E-AC9C24025742</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

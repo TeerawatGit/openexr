@@ -1,0 +1,278 @@
+﻿Build started 20/4/2559 17:02:59.
+     1>Project "C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtilTest\IlmImfUtilTest.vcxproj" on node 2 (Rebuild target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/IlmImfUtilTest/CMakeLists.txt
+         CMake does not need to re-run because C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtilTest\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IC:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\config /IC:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf /IC:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtil /IC:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmaketiled /IC:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrenvmap /IC:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmakepreview /IC:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmultiview /IC:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfFuzzTest /I"C:\Program Files (x86)\GnuWin32\include" /IC:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\_build\include\OpenEXR /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D HAVE_CONFIG_H /D "ILM_IMF_TEST_IMAGEDIR=\"C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/IlmImfTest/\"" /D OPENEXR_DLL /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"IlmImfUtilTest.dir\Debug\\" /Fd"IlmImfUtilTest.dir\Debug\vc120.pdb" /Gd /TP /errorReport:prompt C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtilTest\main.cpp C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtilTest\testFlatImage.cpp C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtilTest\testDeepImage.cpp C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtilTest\testIO.cpp
+         main.cpp
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtilTest\main.cpp(67): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned long', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtilTest\main.cpp(86): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(168) : see declaration of 'strerror'
+         testFlatImage.cpp
+     1>c:\users\teeerawat\desktop\openexr\openexr\openexr\ilmimf\ImfName.h(104): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : see declaration of 'strncpy'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfFrameBuffer.h(215): warning C4251: 'Imf_2_2::FrameBuffer::_map' : class 'std::map<Imf_2_2::Name,Imf_2_2::Slice,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'Imf_2_2::FrameBuffer'
+                 with
+                 [
+                     _Kty=Imf_2_2::Name
+         ,            _Ty=Imf_2_2::Slice
+                 ]
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfChannelList.h(265): warning C4251: 'Imf_2_2::ChannelList::_map' : class 'std::map<Imf_2_2::Name,Imf_2_2::Channel,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'Imf_2_2::ChannelList'
+                 with
+                 [
+                     _Kty=Imf_2_2::Name
+         ,            _Ty=Imf_2_2::Channel
+                 ]
+     1>c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(143): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::ArgExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(143) : see declaration of 'Iex_2_2::ArgExc'
+     1>c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(145): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::LogicExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(145) : see declaration of 'Iex_2_2::LogicExc'
+     1>c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(150): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::InputExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(150) : see declaration of 'Iex_2_2::InputExc'
+     1>c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(152): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::IoExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(152) : see declaration of 'Iex_2_2::IoExc'
+     1>c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(154): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::MathExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(154) : see declaration of 'Iex_2_2::MathExc'
+     1>c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(158): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::ErrnoExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(158) : see declaration of 'Iex_2_2::ErrnoExc'
+     1>c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(163): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::NoImplExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(163) : see declaration of 'Iex_2_2::NoImplExc'
+     1>c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(169): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::NullExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(169) : see declaration of 'Iex_2_2::NullExc'
+     1>c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(171): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::TypeExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(171) : see declaration of 'Iex_2_2::TypeExc'
+     1>c:\users\teeerawat\desktop\openexr\openexr\openexr\ilmimfutil\ImfFlatImageLevel.h(61): warning C4275: non dll-interface class 'Imf_2_2::ImageLevel' used as base for dll-interface class 'Imf_2_2::FlatImageLevel'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtil\ImfImageLevel.h(59) : see declaration of 'Imf_2_2::ImageLevel'
+                 c:\users\teeerawat\desktop\openexr\openexr\openexr\ilmimfutil\ImfFlatImageLevel.h(60) : see declaration of 'Imf_2_2::FlatImageLevel'
+     1>c:\users\teeerawat\desktop\openexr\openexr\openexr\ilmimfutil\ImfFlatImageLevel.h(164): warning C4251: 'Imf_2_2::FlatImageLevel::_channels' : class 'std::map<std::string,Imf_2_2::FlatImageChannel *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'Imf_2_2::FlatImageLevel'
+                 with
+                 [
+                     _Kty=std::string
+         ,            _Ty=Imf_2_2::FlatImageChannel *
+                 ]
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtil\ImfImage.h(102): warning C4099: 'Imf_2_2::Channel' : type name first seen using 'struct' now seen using 'class'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfChannelList.h(61) : see declaration of 'Imf_2_2::Channel'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtil\ImfImage.h(364): warning C4251: 'Imf_2_2::Image::_dataWindow' : class 'Imath_2_2::Box<Imath_2_2::V2i>' needs to have dll-interface to be used by clients of class 'Imf_2_2::Image'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtil\ImfImage.h(367): warning C4251: 'Imf_2_2::Image::_channels' : class 'std::map<std::string,Imf_2_2::Image::ChannelInfo,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'Imf_2_2::Image'
+                 with
+                 [
+                     _Kty=std::string
+         ,            _Ty=Imf_2_2::Image::ChannelInfo
+                 ]
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtil\ImfImage.h(368): warning C4251: 'Imf_2_2::Image::_levels' : class 'Imf_2_2::Array2D<Imf_2_2::ImageLevel *>' needs to have dll-interface to be used by clients of class 'Imf_2_2::Image'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfHeader.h(428): warning C4251: 'Imf_2_2::Header::_map' : class 'std::map<Imf_2_2::Name,Imf_2_2::Attribute *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'Imf_2_2::Header'
+                 with
+                 [
+                     _Kty=Imf_2_2::Name
+         ,            _Ty=Imf_2_2::Attribute *
+                 ]
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtilTest\testFlatImage.cpp(229): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtilTest\testFlatImage.cpp(243) : see reference to function template instantiation 'void `anonymous-namespace'::fillChannel<half>(Imath_2_2::Rand48 &,Imf_2_2::FlatImageChannel &)' being compiled
+         testDeepImage.cpp
+     1>c:\users\teeerawat\desktop\openexr\openexr\openexr\ilmimf\ImfName.h(104): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : see declaration of 'strncpy'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfFrameBuffer.h(215): warning C4251: 'Imf_2_2::FrameBuffer::_map' : class 'std::map<Imf_2_2::Name,Imf_2_2::Slice,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'Imf_2_2::FrameBuffer'
+                 with
+                 [
+                     _Kty=Imf_2_2::Name
+         ,            _Ty=Imf_2_2::Slice
+                 ]
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfChannelList.h(265): warning C4251: 'Imf_2_2::ChannelList::_map' : class 'std::map<Imf_2_2::Name,Imf_2_2::Channel,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'Imf_2_2::ChannelList'
+                 with
+                 [
+                     _Kty=Imf_2_2::Name
+         ,            _Ty=Imf_2_2::Channel
+                 ]
+     1>c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(143): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::ArgExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(143) : see declaration of 'Iex_2_2::ArgExc'
+     1>c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(145): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::LogicExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(145) : see declaration of 'Iex_2_2::LogicExc'
+     1>c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(150): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::InputExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(150) : see declaration of 'Iex_2_2::InputExc'
+     1>c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(152): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::IoExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(152) : see declaration of 'Iex_2_2::IoExc'
+     1>c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(154): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::MathExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(154) : see declaration of 'Iex_2_2::MathExc'
+     1>c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(158): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::ErrnoExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(158) : see declaration of 'Iex_2_2::ErrnoExc'
+     1>c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(163): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::NoImplExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(163) : see declaration of 'Iex_2_2::NoImplExc'
+     1>c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(169): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::NullExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(169) : see declaration of 'Iex_2_2::NullExc'
+     1>c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(171): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::TypeExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(171) : see declaration of 'Iex_2_2::TypeExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfDeepFrameBuffer.h(163): warning C4251: 'Imf_2_2::DeepFrameBuffer::_map' : class 'std::map<Imf_2_2::Name,Imf_2_2::DeepSlice,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'Imf_2_2::DeepFrameBuffer'
+                 with
+                 [
+                     _Kty=Imf_2_2::Name
+         ,            _Ty=Imf_2_2::DeepSlice
+                 ]
+     1>c:\users\teeerawat\desktop\openexr\openexr\openexr\ilmimfutil\ImfDeepImageLevel.h(61): warning C4275: non dll-interface class 'Imf_2_2::ImageLevel' used as base for dll-interface class 'Imf_2_2::DeepImageLevel'
+                 c:\users\teeerawat\desktop\openexr\openexr\openexr\ilmimfutil\ImfImageLevel.h(59) : see declaration of 'Imf_2_2::ImageLevel'
+                 c:\users\teeerawat\desktop\openexr\openexr\openexr\ilmimfutil\ImfDeepImageLevel.h(60) : see declaration of 'Imf_2_2::DeepImageLevel'
+     1>c:\users\teeerawat\desktop\openexr\openexr\openexr\ilmimfutil\ImfDeepImageLevel.h(187): warning C4251: 'Imf_2_2::DeepImageLevel::_channels' : class 'std::map<std::string,Imf_2_2::DeepImageChannel *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'Imf_2_2::DeepImageLevel'
+                 with
+                 [
+                     _Kty=std::string
+         ,            _Ty=Imf_2_2::DeepImageChannel *
+                 ]
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtil\ImfImage.h(102): warning C4099: 'Imf_2_2::Channel' : type name first seen using 'struct' now seen using 'class'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfChannelList.h(61) : see declaration of 'Imf_2_2::Channel'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtil\ImfImage.h(364): warning C4251: 'Imf_2_2::Image::_dataWindow' : class 'Imath_2_2::Box<Imath_2_2::V2i>' needs to have dll-interface to be used by clients of class 'Imf_2_2::Image'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtil\ImfImage.h(367): warning C4251: 'Imf_2_2::Image::_channels' : class 'std::map<std::string,Imf_2_2::Image::ChannelInfo,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'Imf_2_2::Image'
+                 with
+                 [
+                     _Kty=std::string
+         ,            _Ty=Imf_2_2::Image::ChannelInfo
+                 ]
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtil\ImfImage.h(368): warning C4251: 'Imf_2_2::Image::_levels' : class 'Imf_2_2::Array2D<Imf_2_2::ImageLevel *>' needs to have dll-interface to be used by clients of class 'Imf_2_2::Image'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfHeader.h(428): warning C4251: 'Imf_2_2::Header::_map' : class 'std::map<Imf_2_2::Name,Imf_2_2::Attribute *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'Imf_2_2::Header'
+                 with
+                 [
+                     _Kty=Imf_2_2::Name
+         ,            _Ty=Imf_2_2::Attribute *
+                 ]
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtilTest\testDeepImage.cpp(491): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\teeerawat\desktop\openexr\openexr\openexr\ilmimfutil\ImfDeepImageChannel.h(366): warning C4018: '<' : signed/unsigned mismatch
+                 c:\users\teeerawat\desktop\openexr\openexr\openexr\ilmimfutil\ImfDeepImageChannel.h(353) : while compiling class template member function 'void Imf_2_2::TypedDeepImageChannel<half>::setSamplesToZero(size_t,unsigned int,unsigned int)'
+                 c:\users\teeerawat\desktop\openexr\openexr\openexr\ilmimfutil\ImfDeepImageChannel.h(261) : see reference to class template instantiation 'Imf_2_2::TypedDeepImageChannel<half>' being compiled
+     1>c:\users\teeerawat\desktop\openexr\openexr\openexr\ilmimfutil\ImfDeepImageChannel.h(406): warning C4018: '<' : signed/unsigned mismatch
+                 c:\users\teeerawat\desktop\openexr\openexr\openexr\ilmimfutil\ImfDeepImageChannel.h(378) : while compiling class template member function 'void Imf_2_2::TypedDeepImageChannel<half>::moveSampleList(size_t,unsigned int,unsigned int,size_t)'
+     1>c:\users\teeerawat\desktop\openexr\openexr\openexr\ilmimfutil\ImfDeepImageChannel.h(411): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\teeerawat\desktop\openexr\openexr\openexr\ilmimfutil\ImfDeepImageChannel.h(414): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\teeerawat\desktop\openexr\openexr\openexr\ilmimfutil\ImfDeepImageChannel.h(460): warning C4018: '<' : signed/unsigned mismatch
+                 c:\users\teeerawat\desktop\openexr\openexr\openexr\ilmimfutil\ImfDeepImageChannel.h(428) : while compiling class template member function 'void Imf_2_2::TypedDeepImageChannel<half>::moveSamplesToNewBuffer(const unsigned int *,const unsigned int *,const size_t *)'
+     1>c:\users\teeerawat\desktop\openexr\openexr\openexr\ilmimfutil\ImfDeepImageChannel.h(465): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\teeerawat\desktop\openexr\openexr\openexr\ilmimfutil\ImfDeepImageChannel.h(468): warning C4018: '<' : signed/unsigned mismatch
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtilTest\testDeepImage.cpp(263): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtilTest\testDeepImage.cpp(282) : see reference to function template instantiation 'void `anonymous-namespace'::fillChannel<half>(Imath_2_2::Rand48 &,Imf_2_2::DeepImageChannel &)' being compiled
+         testIO.cpp
+     1>c:\users\teeerawat\desktop\openexr\openexr\openexr\ilmimf\ImfName.h(104): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : see declaration of 'strncpy'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfFrameBuffer.h(215): warning C4251: 'Imf_2_2::FrameBuffer::_map' : class 'std::map<Imf_2_2::Name,Imf_2_2::Slice,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'Imf_2_2::FrameBuffer'
+                 with
+                 [
+                     _Kty=Imf_2_2::Name
+         ,            _Ty=Imf_2_2::Slice
+                 ]
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfChannelList.h(265): warning C4251: 'Imf_2_2::ChannelList::_map' : class 'std::map<Imf_2_2::Name,Imf_2_2::Channel,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'Imf_2_2::ChannelList'
+                 with
+                 [
+                     _Kty=Imf_2_2::Name
+         ,            _Ty=Imf_2_2::Channel
+                 ]
+     1>c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(143): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::ArgExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(143) : see declaration of 'Iex_2_2::ArgExc'
+     1>c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(145): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::LogicExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(145) : see declaration of 'Iex_2_2::LogicExc'
+     1>c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(150): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::InputExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(150) : see declaration of 'Iex_2_2::InputExc'
+     1>c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(152): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::IoExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(152) : see declaration of 'Iex_2_2::IoExc'
+     1>c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(154): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::MathExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(154) : see declaration of 'Iex_2_2::MathExc'
+     1>c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(158): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::ErrnoExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(158) : see declaration of 'Iex_2_2::ErrnoExc'
+     1>c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(163): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::NoImplExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(163) : see declaration of 'Iex_2_2::NoImplExc'
+     1>c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(169): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::NullExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(169) : see declaration of 'Iex_2_2::NullExc'
+     1>c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(171): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::TypeExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(171) : see declaration of 'Iex_2_2::TypeExc'
+     1>c:\users\teeerawat\desktop\openexr\openexr\openexr\ilmimfutil\ImfFlatImageLevel.h(61): warning C4275: non dll-interface class 'Imf_2_2::ImageLevel' used as base for dll-interface class 'Imf_2_2::FlatImageLevel'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtil\ImfImageLevel.h(59) : see declaration of 'Imf_2_2::ImageLevel'
+                 c:\users\teeerawat\desktop\openexr\openexr\openexr\ilmimfutil\ImfFlatImageLevel.h(60) : see declaration of 'Imf_2_2::FlatImageLevel'
+     1>c:\users\teeerawat\desktop\openexr\openexr\openexr\ilmimfutil\ImfFlatImageLevel.h(164): warning C4251: 'Imf_2_2::FlatImageLevel::_channels' : class 'std::map<std::string,Imf_2_2::FlatImageChannel *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'Imf_2_2::FlatImageLevel'
+                 with
+                 [
+                     _Kty=std::string
+         ,            _Ty=Imf_2_2::FlatImageChannel *
+                 ]
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtil\ImfImage.h(102): warning C4099: 'Imf_2_2::Channel' : type name first seen using 'struct' now seen using 'class'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfChannelList.h(61) : see declaration of 'Imf_2_2::Channel'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtil\ImfImage.h(364): warning C4251: 'Imf_2_2::Image::_dataWindow' : class 'Imath_2_2::Box<Imath_2_2::V2i>' needs to have dll-interface to be used by clients of class 'Imf_2_2::Image'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtil\ImfImage.h(367): warning C4251: 'Imf_2_2::Image::_channels' : class 'std::map<std::string,Imf_2_2::Image::ChannelInfo,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'Imf_2_2::Image'
+                 with
+                 [
+                     _Kty=std::string
+         ,            _Ty=Imf_2_2::Image::ChannelInfo
+                 ]
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtil\ImfImage.h(368): warning C4251: 'Imf_2_2::Image::_levels' : class 'Imf_2_2::Array2D<Imf_2_2::ImageLevel *>' needs to have dll-interface to be used by clients of class 'Imf_2_2::Image'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfDeepFrameBuffer.h(163): warning C4251: 'Imf_2_2::DeepFrameBuffer::_map' : class 'std::map<Imf_2_2::Name,Imf_2_2::DeepSlice,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'Imf_2_2::DeepFrameBuffer'
+                 with
+                 [
+                     _Kty=Imf_2_2::Name
+         ,            _Ty=Imf_2_2::DeepSlice
+                 ]
+     1>c:\users\teeerawat\desktop\openexr\openexr\openexr\ilmimfutil\ImfDeepImageLevel.h(61): warning C4275: non dll-interface class 'Imf_2_2::ImageLevel' used as base for dll-interface class 'Imf_2_2::DeepImageLevel'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtil\ImfImageLevel.h(59) : see declaration of 'Imf_2_2::ImageLevel'
+                 c:\users\teeerawat\desktop\openexr\openexr\openexr\ilmimfutil\ImfDeepImageLevel.h(60) : see declaration of 'Imf_2_2::DeepImageLevel'
+     1>c:\users\teeerawat\desktop\openexr\openexr\openexr\ilmimfutil\ImfDeepImageLevel.h(187): warning C4251: 'Imf_2_2::DeepImageLevel::_channels' : class 'std::map<std::string,Imf_2_2::DeepImageChannel *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'Imf_2_2::DeepImageLevel'
+                 with
+                 [
+                     _Kty=std::string
+         ,            _Ty=Imf_2_2::DeepImageChannel *
+                 ]
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfHeader.h(428): warning C4251: 'Imf_2_2::Header::_map' : class 'std::map<Imf_2_2::Name,Imf_2_2::Attribute *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'Imf_2_2::Header'
+                 with
+                 [
+                     _Kty=Imf_2_2::Name
+         ,            _Ty=Imf_2_2::Attribute *
+                 ]
+     1>c:\users\teeerawat\desktop\openexr\openexr\openexr\ilmimf\ImfIO.h(147): warning C4251: 'Imf_2_2::IStream::_fileName' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Imf_2_2::IStream'
+     1>c:\users\teeerawat\desktop\openexr\openexr\openexr\ilmimf\ImfIO.h(210): warning C4251: 'Imf_2_2::OStream::_fileName' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Imf_2_2::OStream'
+     1>c:\users\teeerawat\desktop\openexr\openexr\openexr\ilmimf\ImfChromaticities.h(62): warning C4251: 'Imf_2_2::Chromaticities::red' : class 'Imath_2_2::Vec2<float>' needs to have dll-interface to be used by clients of struct 'Imf_2_2::Chromaticities'
+     1>c:\users\teeerawat\desktop\openexr\openexr\openexr\ilmimf\ImfChromaticities.h(63): warning C4251: 'Imf_2_2::Chromaticities::green' : class 'Imath_2_2::Vec2<float>' needs to have dll-interface to be used by clients of struct 'Imf_2_2::Chromaticities'
+     1>c:\users\teeerawat\desktop\openexr\openexr\openexr\ilmimf\ImfChromaticities.h(64): warning C4251: 'Imf_2_2::Chromaticities::blue' : class 'Imath_2_2::Vec2<float>' needs to have dll-interface to be used by clients of struct 'Imf_2_2::Chromaticities'
+     1>c:\users\teeerawat\desktop\openexr\openexr\openexr\ilmimf\ImfChromaticities.h(65): warning C4251: 'Imf_2_2::Chromaticities::white' : class 'Imath_2_2::Vec2<float>' needs to have dll-interface to be used by clients of struct 'Imf_2_2::Chromaticities'
+     1>c:\users\teeerawat\desktop\openexr\openexr\openexr\ilmimfutil\ImfDeepImageChannel.h(366): warning C4018: '<' : signed/unsigned mismatch
+                 c:\users\teeerawat\desktop\openexr\openexr\openexr\ilmimfutil\ImfDeepImageChannel.h(353) : while compiling class template member function 'void Imf_2_2::TypedDeepImageChannel<half>::setSamplesToZero(size_t,unsigned int,unsigned int)'
+                 c:\users\teeerawat\desktop\openexr\openexr\openexr\ilmimfutil\ImfDeepImageChannel.h(261) : see reference to class template instantiation 'Imf_2_2::TypedDeepImageChannel<half>' being compiled
+     1>c:\users\teeerawat\desktop\openexr\openexr\openexr\ilmimfutil\ImfDeepImageChannel.h(406): warning C4018: '<' : signed/unsigned mismatch
+                 c:\users\teeerawat\desktop\openexr\openexr\openexr\ilmimfutil\ImfDeepImageChannel.h(378) : while compiling class template member function 'void Imf_2_2::TypedDeepImageChannel<half>::moveSampleList(size_t,unsigned int,unsigned int,size_t)'
+     1>c:\users\teeerawat\desktop\openexr\openexr\openexr\ilmimfutil\ImfDeepImageChannel.h(411): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\teeerawat\desktop\openexr\openexr\openexr\ilmimfutil\ImfDeepImageChannel.h(414): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\teeerawat\desktop\openexr\openexr\openexr\ilmimfutil\ImfDeepImageChannel.h(460): warning C4018: '<' : signed/unsigned mismatch
+                 c:\users\teeerawat\desktop\openexr\openexr\openexr\ilmimfutil\ImfDeepImageChannel.h(428) : while compiling class template member function 'void Imf_2_2::TypedDeepImageChannel<half>::moveSamplesToNewBuffer(const unsigned int *,const unsigned int *,const size_t *)'
+     1>c:\users\teeerawat\desktop\openexr\openexr\openexr\ilmimfutil\ImfDeepImageChannel.h(465): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\teeerawat\desktop\openexr\openexr\openexr\ilmimfutil\ImfDeepImageChannel.h(468): warning C4018: '<' : signed/unsigned mismatch
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtilTest\Debug\IlmImfUtilTest.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/lib /LIBPATH:C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/lib/Debug /LIBPATH:C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/IlmImfUtilTest/../IlmImf /LIBPATH:C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/IlmImfUtilTest/../IlmImf/Debug kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "..\IlmImfUtil\Debug\IlmImfUtil-2_2.lib" "..\IlmImf\Debug\IlmImf-2_2.lib" Half.lib "Iex-2_2.lib" "Imath-2_2.lib" "IlmThread-2_2.lib" "C:\Program Files (x86)\GnuWin32\lib\zlib.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/IlmImfUtilTest/Debug/IlmImfUtilTest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/IlmImfUtilTest/Debug/IlmImfUtilTest.lib" /MACHINE:X64  /machine:x64 IlmImfUtilTest.dir\Debug\main.obj
+         IlmImfUtilTest.dir\Debug\testFlatImage.obj
+         IlmImfUtilTest.dir\Debug\testDeepImage.obj
+         IlmImfUtilTest.dir\Debug\testIO.obj
+         IlmImfUtilTest.vcxproj -> C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtilTest\Debug\IlmImfUtilTest.exe
+     1>Done Building Project "C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtilTest\IlmImfUtilTest.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.81

@@ -1,0 +1,51 @@
+﻿Build started 20/4/2559 17:21:29.
+     1>Project "C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\dwaLookups.vcxproj" on node 2 (Rebuild target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/IlmImf/CMakeLists.txt
+         CMake does not need to re-run because C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IC:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf /IC:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\config /IC:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtil /IC:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmaketiled /IC:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrenvmap /IC:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmakepreview /IC:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmultiview /IC:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfFuzzTest /I"C:\Program Files (x86)\GnuWin32\include" /IC:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\_build\include\OpenEXR /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D HAVE_CONFIG_H /D "ILM_IMF_TEST_IMAGEDIR=\"C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/IlmImfTest/\"" /D OPENEXR_DLL /D ILMIMF_EXPORTS /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"dwaLookups.dir\Release\\" /Fd"dwaLookups.dir\Release\vc120.pdb" /Gd /TP /errorReport:prompt C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\dwaLookups.cpp
+         dwaLookups.cpp
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfIO.h(147): warning C4251: 'Imf_2_2::IStream::_fileName' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Imf_2_2::IStream'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\ImfIO.h(210): warning C4251: 'Imf_2_2::OStream::_fileName' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Imf_2_2::OStream'
+     1>c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(143): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::ArgExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(143) : see declaration of 'Iex_2_2::ArgExc'
+     1>c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(145): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::LogicExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(145) : see declaration of 'Iex_2_2::LogicExc'
+     1>c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(150): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::InputExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(150) : see declaration of 'Iex_2_2::InputExc'
+     1>c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(152): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::IoExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(152) : see declaration of 'Iex_2_2::IoExc'
+     1>c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(154): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::MathExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(154) : see declaration of 'Iex_2_2::MathExc'
+     1>c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(158): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::ErrnoExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(158) : see declaration of 'Iex_2_2::ErrnoExc'
+     1>c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(163): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::NoImplExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(163) : see declaration of 'Iex_2_2::NoImplExc'
+     1>c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(169): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::NullExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(169) : see declaration of 'Iex_2_2::NullExc'
+     1>c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(171): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::TypeExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 c:\users\teeerawat\desktop\openexr\openexr\ilmbase\_build\include\openexr\IexBaseExc.h(171) : see declaration of 'Iex_2_2::TypeExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\dwaLookups.cpp(161): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned short', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\dwaLookups.cpp(164): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned short', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\dwaLookups.cpp(334): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\dwaLookups.cpp(388): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\dwaLookups.cpp(416): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\dwaLookups.cpp(525): warning C4267: '+=' : conversion from 'size_t' to 'int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\Release\dwaLookups.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/lib /LIBPATH:C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/lib/Release kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib Half.lib "Iex-2_2.lib" "IlmThread-2_2.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/IlmImf/Release/dwaLookups.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/IlmImf/Release/dwaLookups.lib" /MACHINE:X64  /machine:x64 dwaLookups.dir\Release\dwaLookups.obj
+         dwaLookups.vcxproj -> C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\Release\dwaLookups.exe
+     1>Done Building Project "C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\dwaLookups.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.04

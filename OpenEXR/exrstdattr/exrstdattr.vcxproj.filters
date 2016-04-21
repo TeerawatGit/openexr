@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrstdattr\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrstdattr\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{62295936-72ED-3E52-80BD-69F60E9BE136}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

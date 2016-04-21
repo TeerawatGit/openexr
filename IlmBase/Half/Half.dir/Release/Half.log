@@ -1,0 +1,17 @@
+﻿Build started 20/4/2559 16:12:39.
+     1>Project "C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Half\Half.vcxproj" on node 3 (Build target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/Half/CMakeLists.txt
+         CMake does not need to re-run because C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Half\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IC:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Half /IC:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex /IC:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\IexMath /IC:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Imath /IC:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\config /IC:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\IlmThread /IC:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\IexTest /IC:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest /IC:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\HalfTest /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D OPENEXR_DLL /D HALF_EXPORTS /D "CMAKE_INTDIR=\"Release\"" /D Half_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Half.dir\Release\\" /Fd"Half.dir\Release\vc120.pdb" /Gd /TP /errorReport:prompt C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Half\half.cpp
+         half.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Half\Release\Half.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/Half/Release/Half.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/Half/Release/Half.lib" /MACHINE:X64  /machine:x64 /DLL Half.dir\Release\half.obj
+            Creating library C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/Half/Release/Half.lib and object C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/Half/Release/Half.exp
+         Half.vcxproj -> C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Half\Release\Half.dll
+     1>Done Building Project "C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Half\Half.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.83

@@ -1,0 +1,16 @@
+﻿Build started 20/4/2559 17:21:29.
+     1>Project "C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\b44ExpLogTable.vcxproj" on node 3 (Rebuild target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/IlmImf/CMakeLists.txt
+         CMake does not need to re-run because C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IC:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf /IC:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\config /IC:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfUtil /IC:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmaketiled /IC:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrenvmap /IC:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmakepreview /IC:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\exrmultiview /IC:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfFuzzTest /I"C:\Program Files (x86)\GnuWin32\include" /IC:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\_build\include\OpenEXR /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D HAVE_CONFIG_H /D "ILM_IMF_TEST_IMAGEDIR=\"C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/IlmImfTest/\"" /D OPENEXR_DLL /D ILMIMF_EXPORTS /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"b44ExpLogTable.dir\Release\\" /Fd"b44ExpLogTable.dir\Release\vc120.pdb" /Gd /TP /errorReport:prompt C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\b44ExpLogTable.cpp
+         b44ExpLogTable.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\Release\b44ExpLogTable.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/lib /LIBPATH:C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/_build/lib/Release kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib Half.lib "Iex-2_2.lib" "IlmThread-2_2.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/IlmImf/Release/b44ExpLogTable.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/IlmImf/Release/b44ExpLogTable.lib" /MACHINE:X64  /machine:x64 b44ExpLogTable.dir\Release\b44ExpLogTable.obj
+         b44ExpLogTable.vcxproj -> C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\Release\b44ExpLogTable.exe
+     1>Done Building Project "C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImf\b44ExpLogTable.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.94

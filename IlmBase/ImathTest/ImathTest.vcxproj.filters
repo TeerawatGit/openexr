@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testBoxAlgo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testColor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testExtractEuler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testExtractSHRT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testFrustum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testFrustumTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testFun.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testInvert.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testJacobiEigenSolver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testLineAlgo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testMatrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testMiscMatrixAlgo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testProcrustes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testQuat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testQuatSetRotation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testQuatSlerp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testRandom.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testRoots.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testShear.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testTinySVD.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testVec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1EFBCF19-DB2A-3EBB-9DB9-CDE7B60B3CDF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

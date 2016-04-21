@@ -1,0 +1,845 @@
+﻿Build started 20/4/2559 16:12:44.
+     1>Project "C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\ImathTest.vcxproj" on node 3 (Build target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/ImathTest/CMakeLists.txt
+         CMake does not need to re-run because C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IC:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest /IC:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex /IC:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\IexMath /IC:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Imath /IC:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Half /IC:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\config /IC:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\IlmThread /IC:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\IexTest /IC:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\HalfTest /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D OPENEXR_DLL /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"ImathTest.dir\Release\\" /Fd"ImathTest.dir\Release\vc120.pdb" /Gd /TP /errorReport:prompt C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\main.cpp C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testBox.cpp C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testBoxAlgo.cpp C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testColor.cpp C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testExtractEuler.cpp C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testExtractSHRT.cpp C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testFrustum.cpp C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testFrustumTest.cpp C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testFun.cpp C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testInvert.cpp C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testJacobiEigenSolver.cpp C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testLineAlgo.cpp C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testMatrix.cpp C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testMiscMatrixAlgo.cpp C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testProcrustes.cpp C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testQuat.cpp C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testQuatSetRotation.cpp C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testQuatSlerp.cpp C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testRandom.cpp C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testRoots.cpp C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testShear.cpp C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testTinySVD.cpp C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testVec.cpp
+         main.cpp
+         testBox.cpp
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(143): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::ArgExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(143) : see declaration of 'Iex_2_2::ArgExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(145): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::LogicExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(145) : see declaration of 'Iex_2_2::LogicExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(150): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::InputExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(150) : see declaration of 'Iex_2_2::InputExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(152): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::IoExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(152) : see declaration of 'Iex_2_2::IoExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(154): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::MathExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(154) : see declaration of 'Iex_2_2::MathExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(158): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::ErrnoExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(158) : see declaration of 'Iex_2_2::ErrnoExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(163): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::NoImplExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(163) : see declaration of 'Iex_2_2::NoImplExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(169): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::NullExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(169) : see declaration of 'Iex_2_2::NullExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(171): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::TypeExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(171) : see declaration of 'Iex_2_2::TypeExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testBox.cpp(119): warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testBox.cpp(978) : see reference to function template instantiation 'void `anonymous-namespace'::testConstructors<Imath_2_2::V2f>(const char *)' being compiled
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testBox.cpp(133): warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testBox.cpp(134): warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testBox.cpp(644): warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testBox.cpp(1086) : see reference to function template instantiation 'void `anonymous-namespace'::testSize<Imath_2_2::V2f>(const char *)' being compiled
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testBox.cpp(63): warning C4244: '=' : conversion from 'const int' to 'float', possible loss of data
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testBox.cpp(76) : see reference to function template instantiation 'void `anonymous-namespace'::addItem<T>(const std::vector<int,std::allocator<_Ty>> &,std::vector<T,std::allocator<Imath_2_2::Vec2<float>>> &)' being compiled
+                 with
+                 [
+                     T=Imath_2_2::V2f
+         ,            _Ty=int
+                 ]
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testBox.cpp(95) : see reference to function template instantiation 'void `anonymous-namespace'::visit<T>(int &,int,int,std::vector<int,std::allocator<_Ty>> &,std::vector<T,std::allocator<Imath_2_2::Vec2<float>>> &)' being compiled
+                 with
+                 [
+                     T=Imath_2_2::V2f
+         ,            _Ty=int
+                 ]
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testBox.cpp(312) : see reference to function template instantiation 'void `anonymous-namespace'::permutations<T>(std::vector<T,std::allocator<_Ty>> &)' being compiled
+                 with
+                 [
+                     T=Imath_2_2::V2f
+         ,            _Ty=Imath_2_2::V2f
+                 ]
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testBox.cpp(1050) : see reference to function template instantiation 'void `anonymous-namespace'::testExtendByBox<Imath_2_2::V2f>(const char *)' being compiled
+         testBoxAlgo.cpp
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(143): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::ArgExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(143) : see declaration of 'Iex_2_2::ArgExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(145): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::LogicExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(145) : see declaration of 'Iex_2_2::LogicExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(150): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::InputExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(150) : see declaration of 'Iex_2_2::InputExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(152): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::IoExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(152) : see declaration of 'Iex_2_2::IoExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(154): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::MathExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(154) : see declaration of 'Iex_2_2::MathExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(158): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::ErrnoExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(158) : see declaration of 'Iex_2_2::ErrnoExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(163): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::NoImplExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(163) : see declaration of 'Iex_2_2::NoImplExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(169): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::NullExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(169) : see declaration of 'Iex_2_2::NullExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(171): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::TypeExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(171) : see declaration of 'Iex_2_2::TypeExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testBoxAlgo.cpp(84): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testBoxAlgo.cpp(128): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testBoxAlgo.cpp(175): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testBoxAlgo.cpp(185): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testBoxAlgo.cpp(479): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testBoxAlgo.cpp(523): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testBoxAlgo.cpp(559): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testBoxAlgo.cpp(586): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testBoxAlgo.cpp(596): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+         testColor.cpp
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(143): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::ArgExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(143) : see declaration of 'Iex_2_2::ArgExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(145): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::LogicExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(145) : see declaration of 'Iex_2_2::LogicExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(150): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::InputExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(150) : see declaration of 'Iex_2_2::InputExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(152): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::IoExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(152) : see declaration of 'Iex_2_2::IoExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(154): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::MathExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(154) : see declaration of 'Iex_2_2::MathExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(158): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::ErrnoExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(158) : see declaration of 'Iex_2_2::ErrnoExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(163): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::NoImplExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(163) : see declaration of 'Iex_2_2::NoImplExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(169): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::NullExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(169) : see declaration of 'Iex_2_2::NullExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(171): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::TypeExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(171) : see declaration of 'Iex_2_2::TypeExc'
+         testExtractEuler.cpp
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(143): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::ArgExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(143) : see declaration of 'Iex_2_2::ArgExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(145): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::LogicExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(145) : see declaration of 'Iex_2_2::LogicExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(150): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::InputExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(150) : see declaration of 'Iex_2_2::InputExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(152): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::IoExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(152) : see declaration of 'Iex_2_2::IoExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(154): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::MathExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(154) : see declaration of 'Iex_2_2::MathExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(158): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::ErrnoExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(158) : see declaration of 'Iex_2_2::ErrnoExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(163): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::NoImplExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(163) : see declaration of 'Iex_2_2::NoImplExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(169): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::NullExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(169) : see declaration of 'Iex_2_2::NullExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(171): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::TypeExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(171) : see declaration of 'Iex_2_2::TypeExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testExtractEuler.cpp(50): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testExtractEuler.cpp(51): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testExtractEuler.cpp(131): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testExtractEuler.cpp(132): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testExtractEuler.cpp(133): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testExtractEuler.cpp(144): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testExtractEuler.cpp(208): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testExtractEuler.cpp(217): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testExtractEuler.cpp(221): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\teeerawat\desktop\openexr\openexr\ilmbase\imath\ImathMatrix.h(3290): warning C4244: '=' : conversion from 'std::streamsize' to 'int', possible loss of data
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testExtractEuler.cpp(108) : see reference to function template instantiation 'std::ostream &Imath_2_2::operator <<<float>(std::ostream &,const Imath_2_2::Matrix44<float> &)' being compiled
+     1>c:\users\teeerawat\desktop\openexr\openexr\ilmbase\imath\ImathMatrix.h(3296): warning C4244: '=' : conversion from 'std::streamsize' to 'int', possible loss of data
+         testExtractSHRT.cpp
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(143): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::ArgExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(143) : see declaration of 'Iex_2_2::ArgExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(145): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::LogicExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(145) : see declaration of 'Iex_2_2::LogicExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(150): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::InputExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(150) : see declaration of 'Iex_2_2::InputExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(152): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::IoExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(152) : see declaration of 'Iex_2_2::IoExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(154): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::MathExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(154) : see declaration of 'Iex_2_2::MathExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(158): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::ErrnoExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(158) : see declaration of 'Iex_2_2::ErrnoExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(163): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::NoImplExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(163) : see declaration of 'Iex_2_2::NoImplExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(169): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::NullExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(169) : see declaration of 'Iex_2_2::NullExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(171): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::TypeExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(171) : see declaration of 'Iex_2_2::TypeExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testExtractSHRT.cpp(59): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testExtractSHRT.cpp(60): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testExtractSHRT.cpp(134): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testExtractSHRT.cpp(146): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testExtractSHRT.cpp(156): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testExtractSHRT.cpp(165): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testExtractSHRT.cpp(175): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testExtractSHRT.cpp(298): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testExtractSHRT.cpp(306): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testExtractSHRT.cpp(307): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testExtractSHRT.cpp(308): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testExtractSHRT.cpp(318): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testExtractSHRT.cpp(332): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testExtractSHRT.cpp(346): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testExtractSHRT.cpp(422): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\teeerawat\desktop\openexr\openexr\ilmbase\imath\ImathMatrix.h(3255): warning C4244: '=' : conversion from 'std::streamsize' to 'int', possible loss of data
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testExtractSHRT.cpp(107) : see reference to function template instantiation 'std::ostream &Imath_2_2::operator <<<float>(std::ostream &,const Imath_2_2::Matrix33<float> &)' being compiled
+     1>c:\users\teeerawat\desktop\openexr\openexr\ilmbase\imath\ImathMatrix.h(3261): warning C4244: '=' : conversion from 'std::streamsize' to 'int', possible loss of data
+     1>c:\users\teeerawat\desktop\openexr\openexr\ilmbase\imath\ImathMatrix.h(3290): warning C4244: '=' : conversion from 'std::streamsize' to 'int', possible loss of data
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testExtractSHRT.cpp(270) : see reference to function template instantiation 'std::ostream &Imath_2_2::operator <<<float>(std::ostream &,const Imath_2_2::Matrix44<float> &)' being compiled
+     1>c:\users\teeerawat\desktop\openexr\openexr\ilmbase\imath\ImathMatrix.h(3296): warning C4244: '=' : conversion from 'std::streamsize' to 'int', possible loss of data
+         testFrustum.cpp
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(143): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::ArgExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(143) : see declaration of 'Iex_2_2::ArgExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(145): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::LogicExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(145) : see declaration of 'Iex_2_2::LogicExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(150): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::InputExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(150) : see declaration of 'Iex_2_2::InputExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(152): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::IoExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(152) : see declaration of 'Iex_2_2::IoExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(154): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::MathExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(154) : see declaration of 'Iex_2_2::MathExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(158): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::ErrnoExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(158) : see declaration of 'Iex_2_2::ErrnoExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(163): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::NoImplExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(163) : see declaration of 'Iex_2_2::NoImplExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(169): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::NullExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(169) : see declaration of 'Iex_2_2::NullExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(171): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::TypeExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(171) : see declaration of 'Iex_2_2::TypeExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testFrustum.cpp(56): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testFrustum.cpp(177): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testFrustum.cpp(181): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testFrustum.cpp(182): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testFrustum.cpp(279): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testFrustum.cpp(281): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testFrustum.cpp(283): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testFrustum.cpp(285): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testFrustum.cpp(287): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testFrustum.cpp(289): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+         testFrustumTest.cpp
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(143): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::ArgExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(143) : see declaration of 'Iex_2_2::ArgExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(145): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::LogicExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(145) : see declaration of 'Iex_2_2::LogicExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(150): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::InputExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(150) : see declaration of 'Iex_2_2::InputExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(152): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::IoExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(152) : see declaration of 'Iex_2_2::IoExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(154): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::MathExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(154) : see declaration of 'Iex_2_2::MathExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(158): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::ErrnoExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(158) : see declaration of 'Iex_2_2::ErrnoExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(163): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::NoImplExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(163) : see declaration of 'Iex_2_2::NoImplExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(169): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::NullExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(169) : see declaration of 'Iex_2_2::NullExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(171): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::TypeExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(171) : see declaration of 'Iex_2_2::TypeExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testFrustumTest.cpp(55): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testFrustumTest.cpp(59): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testFrustumTest.cpp(60): warning C4305: 'initializing' : truncation from 'double' to 'float'
+         testFun.cpp
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testFun.cpp(184): warning C4305: 'argument' : truncation from 'double' to 'float'
+         testInvert.cpp
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(143): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::ArgExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(143) : see declaration of 'Iex_2_2::ArgExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(145): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::LogicExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(145) : see declaration of 'Iex_2_2::LogicExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(150): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::InputExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(150) : see declaration of 'Iex_2_2::InputExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(152): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::IoExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(152) : see declaration of 'Iex_2_2::IoExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(154): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::MathExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(154) : see declaration of 'Iex_2_2::MathExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(158): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::ErrnoExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(158) : see declaration of 'Iex_2_2::ErrnoExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(163): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::NoImplExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(163) : see declaration of 'Iex_2_2::NoImplExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(169): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::NullExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(169) : see declaration of 'Iex_2_2::NullExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(171): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::TypeExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(171) : see declaration of 'Iex_2_2::TypeExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testInvert.cpp(112): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testInvert.cpp(117): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testInvert.cpp(122): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testInvert.cpp(123): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testInvert.cpp(143): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testInvert.cpp(147): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testInvert.cpp(152): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testInvert.cpp(153): warning C4305: 'argument' : truncation from 'double' to 'float'
+         testJacobiEigenSolver.cpp
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(143): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::ArgExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(143) : see declaration of 'Iex_2_2::ArgExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(145): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::LogicExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(145) : see declaration of 'Iex_2_2::LogicExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(150): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::InputExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(150) : see declaration of 'Iex_2_2::InputExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(152): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::IoExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(152) : see declaration of 'Iex_2_2::IoExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(154): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::MathExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(154) : see declaration of 'Iex_2_2::MathExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(158): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::ErrnoExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(158) : see declaration of 'Iex_2_2::ErrnoExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(163): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::NoImplExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(163) : see declaration of 'Iex_2_2::NoImplExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(169): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::NullExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(169) : see declaration of 'Iex_2_2::NullExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(171): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::TypeExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(171) : see declaration of 'Iex_2_2::TypeExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testJacobiEigenSolver.cpp(138): warning C4018: '<' : signed/unsigned mismatch
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testJacobiEigenSolver.cpp(252) : see reference to function template instantiation 'void testJacobiEigenSolver<Imath_2_2::Matrix33<float>>(const TM &)' being compiled
+                 with
+                 [
+                     TM=Imath_2_2::Matrix33<float>
+                 ]
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testJacobiEigenSolver.cpp(289) : see reference to function template instantiation 'void testJacobiEigenSolverImp<float>(void)' being compiled
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testJacobiEigenSolver.cpp(139): warning C4018: '<' : signed/unsigned mismatch
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testJacobiEigenSolver.cpp(151): warning C4018: '<' : signed/unsigned mismatch
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testJacobiEigenSolver.cpp(152): warning C4018: '<' : signed/unsigned mismatch
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testJacobiEigenSolver.cpp(103): warning C4018: '<' : signed/unsigned mismatch
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testJacobiEigenSolver.cpp(122) : see reference to function template instantiation 'float computeThreshold<TM>(const TM &)' being compiled
+                 with
+                 [
+                     TM=Imath_2_2::Matrix33<float>
+                 ]
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testJacobiEigenSolver.cpp(252) : see reference to function template instantiation 'void testJacobiEigenSolver<Imath_2_2::Matrix33<float>>(const TM &)' being compiled
+                 with
+                 [
+                     TM=Imath_2_2::Matrix33<float>
+                 ]
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testJacobiEigenSolver.cpp(104): warning C4018: '<' : signed/unsigned mismatch
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testJacobiEigenSolver.cpp(88): warning C4018: '<' : signed/unsigned mismatch
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testJacobiEigenSolver.cpp(131) : see reference to function template instantiation 'void verifyOrthonormal<TM>(const TM &,const float)' being compiled
+                 with
+                 [
+                     TM=Imath_2_2::Matrix33<float>
+                 ]
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testJacobiEigenSolver.cpp(89): warning C4018: '<' : signed/unsigned mismatch
+         testLineAlgo.cpp
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(143): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::ArgExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(143) : see declaration of 'Iex_2_2::ArgExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(145): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::LogicExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(145) : see declaration of 'Iex_2_2::LogicExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(150): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::InputExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(150) : see declaration of 'Iex_2_2::InputExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(152): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::IoExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(152) : see declaration of 'Iex_2_2::IoExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(154): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::MathExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(154) : see declaration of 'Iex_2_2::MathExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(158): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::ErrnoExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(158) : see declaration of 'Iex_2_2::ErrnoExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(163): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::NoImplExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(163) : see declaration of 'Iex_2_2::NoImplExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(169): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::NullExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(169) : see declaration of 'Iex_2_2::NullExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(171): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::TypeExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(171) : see declaration of 'Iex_2_2::TypeExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testLineAlgo.cpp(347): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testLineAlgo.cpp(348): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testLineAlgo.cpp(393): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testLineAlgo.cpp(394): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         testMatrix.cpp
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(143): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::ArgExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(143) : see declaration of 'Iex_2_2::ArgExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(145): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::LogicExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(145) : see declaration of 'Iex_2_2::LogicExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(150): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::InputExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(150) : see declaration of 'Iex_2_2::InputExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(152): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::IoExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(152) : see declaration of 'Iex_2_2::IoExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(154): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::MathExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(154) : see declaration of 'Iex_2_2::MathExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(158): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::ErrnoExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(158) : see declaration of 'Iex_2_2::ErrnoExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(163): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::NoImplExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(163) : see declaration of 'Iex_2_2::NoImplExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(169): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::NullExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(169) : see declaration of 'Iex_2_2::NullExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(171): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::TypeExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(171) : see declaration of 'Iex_2_2::TypeExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Imath\ImathMatrix.h(2132): warning C4244: '=' : conversion from 'const double' to 'float', possible loss of data
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testMatrix.cpp(239) : see reference to function template instantiation 'Imath_2_2::Matrix44<float> &Imath_2_2::Matrix44<float>::setValue<double>(const Imath_2_2::Matrix44<double> &)' being compiled
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testMatrix.cpp(239) : see reference to function template instantiation 'Imath_2_2::Matrix44<float> &Imath_2_2::Matrix44<float>::setValue<double>(const Imath_2_2::Matrix44<double> &)' being compiled
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Imath\ImathMatrix.h(2133): warning C4244: '=' : conversion from 'const double' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Imath\ImathMatrix.h(2134): warning C4244: '=' : conversion from 'const double' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Imath\ImathMatrix.h(2135): warning C4244: '=' : conversion from 'const double' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Imath\ImathMatrix.h(2136): warning C4244: '=' : conversion from 'const double' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Imath\ImathMatrix.h(2137): warning C4244: '=' : conversion from 'const double' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Imath\ImathMatrix.h(2138): warning C4244: '=' : conversion from 'const double' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Imath\ImathMatrix.h(2139): warning C4244: '=' : conversion from 'const double' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Imath\ImathMatrix.h(2140): warning C4244: '=' : conversion from 'const double' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Imath\ImathMatrix.h(2141): warning C4244: '=' : conversion from 'const double' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Imath\ImathMatrix.h(2142): warning C4244: '=' : conversion from 'const double' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Imath\ImathMatrix.h(2143): warning C4244: '=' : conversion from 'const double' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Imath\ImathMatrix.h(2144): warning C4244: '=' : conversion from 'const double' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Imath\ImathMatrix.h(2145): warning C4244: '=' : conversion from 'const double' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Imath\ImathMatrix.h(2146): warning C4244: '=' : conversion from 'const double' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Imath\ImathMatrix.h(2147): warning C4244: '=' : conversion from 'const double' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Imath\ImathMatrix.h(3290): warning C4244: '=' : conversion from 'std::streamsize' to 'int', possible loss of data
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testMatrix.cpp(451) : see reference to function template instantiation 'std::ostream &Imath_2_2::operator <<<float>(std::ostream &,const Imath_2_2::Matrix44<float> &)' being compiled
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Imath\ImathMatrix.h(3296): warning C4244: '=' : conversion from 'std::streamsize' to 'int', possible loss of data
+         testMiscMatrixAlgo.cpp
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(143): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::ArgExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(143) : see declaration of 'Iex_2_2::ArgExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(145): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::LogicExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(145) : see declaration of 'Iex_2_2::LogicExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(150): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::InputExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(150) : see declaration of 'Iex_2_2::InputExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(152): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::IoExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(152) : see declaration of 'Iex_2_2::IoExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(154): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::MathExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(154) : see declaration of 'Iex_2_2::MathExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(158): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::ErrnoExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(158) : see declaration of 'Iex_2_2::ErrnoExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(163): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::NoImplExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(163) : see declaration of 'Iex_2_2::NoImplExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(169): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::NullExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(169) : see declaration of 'Iex_2_2::NullExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(171): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::TypeExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(171) : see declaration of 'Iex_2_2::TypeExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testMiscMatrixAlgo.cpp(57): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testMiscMatrixAlgo.cpp(62): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testMiscMatrixAlgo.cpp(71): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testMiscMatrixAlgo.cpp(76): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testMiscMatrixAlgo.cpp(81): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testMiscMatrixAlgo.cpp(130): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testMiscMatrixAlgo.cpp(132): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testMiscMatrixAlgo.cpp(133): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testMiscMatrixAlgo.cpp(134): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testMiscMatrixAlgo.cpp(139): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testMiscMatrixAlgo.cpp(160): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testMiscMatrixAlgo.cpp(174): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testMiscMatrixAlgo.cpp(190): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\teeerawat\desktop\openexr\openexr\ilmbase\imath\ImathMatrix.h(3290): warning C4244: '=' : conversion from 'std::streamsize' to 'int', possible loss of data
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testMiscMatrixAlgo.cpp(209) : see reference to function template instantiation 'std::ostream &Imath_2_2::operator <<<float>(std::ostream &,const Imath_2_2::Matrix44<float> &)' being compiled
+     1>c:\users\teeerawat\desktop\openexr\openexr\ilmbase\imath\ImathMatrix.h(3296): warning C4244: '=' : conversion from 'std::streamsize' to 'int', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Imath\ImathMatrixAlgo.h(991): warning C4305: 'argument' : truncation from 'double' to 'float'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testMiscMatrixAlgo.cpp(235) : see reference to function template instantiation 'Imath_2_2::Matrix44<float> Imath_2_2::addOffset<float>(const Imath_2_2::Matrix44<float> &,const Imath_2_2::Vec3<float> &,const Imath_2_2::Vec3<float> &,const Imath_2_2::Vec3<float> &,const Imath_2_2::Matrix44<float> &)' being compiled
+         testProcrustes.cpp
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(143): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::ArgExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(143) : see declaration of 'Iex_2_2::ArgExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(145): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::LogicExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(145) : see declaration of 'Iex_2_2::LogicExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(150): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::InputExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(150) : see declaration of 'Iex_2_2::InputExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(152): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::IoExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(152) : see declaration of 'Iex_2_2::IoExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(154): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::MathExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(154) : see declaration of 'Iex_2_2::MathExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(158): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::ErrnoExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(158) : see declaration of 'Iex_2_2::ErrnoExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(163): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::NoImplExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(163) : see declaration of 'Iex_2_2::NoImplExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(169): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::NullExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(169) : see declaration of 'Iex_2_2::NullExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(171): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::TypeExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(171) : see declaration of 'Iex_2_2::TypeExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testProcrustes.cpp(349): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testProcrustes.cpp(398) : see reference to function template instantiation 'void testProcrustesImp<float>(void)' being compiled
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testProcrustes.cpp(359): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testProcrustes.cpp(360): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testProcrustes.cpp(378): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testProcrustes.cpp(387): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testProcrustes.cpp(71): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testProcrustes.cpp(304) : see reference to function template instantiation 'void testTranslationRotationMatrix<T>(const Imath_2_2::M44d &)' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testProcrustes.cpp(398) : see reference to function template instantiation 'void testProcrustesImp<float>(void)' being compiled
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testProcrustes.cpp(98): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testProcrustes.cpp(319) : see reference to function template instantiation 'void testWithTranslateRotateAndScale<T>(const Imath_2_2::M44d &)' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testProcrustes.cpp(102): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testProcrustes.cpp(103): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testProcrustes.cpp(173): warning C4244: '=' : conversion from 'size_t' to 'float', possible loss of data
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testProcrustes.cpp(351) : see reference to function template instantiation 'void verifyProcrustes<float>(const std::vector<Imath_2_2::Vec3<float>,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' being compiled
+                 with
+                 [
+                     _Ty=Imath_2_2::Vec3<float>
+                 ]
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testProcrustes.cpp(181): warning C4244: 'initializing' : conversion from 'double' to 'const float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testProcrustes.cpp(224): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testProcrustes.cpp(230): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testProcrustes.cpp(173): warning C4244: '=' : conversion from 'size_t' to 'double', possible loss of data
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testProcrustes.cpp(351) : see reference to function template instantiation 'void verifyProcrustes<double>(const std::vector<Imath_2_2::Vec3<double>,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)' being compiled
+                 with
+                 [
+                     _Ty=Imath_2_2::Vec3<double>
+                 ]
+     1>c:\users\teeerawat\desktop\openexr\openexr\ilmbase\imath\ImathMatrix.h(3290): warning C4244: '=' : conversion from 'std::streamsize' to 'int', possible loss of data
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testProcrustes.cpp(50) : see reference to function template instantiation 'std::ostream &Imath_2_2::operator <<<double>(std::ostream &,const Imath_2_2::Matrix44<double> &)' being compiled
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testProcrustes.cpp(304) : see reference to function template instantiation 'void testTranslationRotationMatrix<T>(const Imath_2_2::M44d &)' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\teeerawat\desktop\openexr\openexr\ilmbase\imath\ImathMatrix.h(3296): warning C4244: '=' : conversion from 'std::streamsize' to 'int', possible loss of data
+         testQuat.cpp
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(143): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::ArgExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(143) : see declaration of 'Iex_2_2::ArgExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(145): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::LogicExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(145) : see declaration of 'Iex_2_2::LogicExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(150): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::InputExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(150) : see declaration of 'Iex_2_2::InputExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(152): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::IoExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(152) : see declaration of 'Iex_2_2::IoExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(154): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::MathExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(154) : see declaration of 'Iex_2_2::MathExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(158): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::ErrnoExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(158) : see declaration of 'Iex_2_2::ErrnoExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(163): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::NoImplExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(163) : see declaration of 'Iex_2_2::NoImplExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(169): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::NullExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(169) : see declaration of 'Iex_2_2::NullExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(171): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::TypeExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(171) : see declaration of 'Iex_2_2::TypeExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testQuat.cpp(122): warning C4305: 'argument' : truncation from 'double' to 'float'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testQuat.cpp(267) : see reference to function template instantiation 'void `anonymous-namespace'::testQuatT<float>(void)' being compiled
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testQuat.cpp(144): warning C4305: '*=' : truncation from 'double' to 'float'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testQuat.cpp(145): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testQuat.cpp(153): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testQuat.cpp(162): warning C4305: '*=' : truncation from 'double' to 'float'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testQuat.cpp(163): warning C4305: 'argument' : truncation from 'double' to 'float'
+         testQuatSetRotation.cpp
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(143): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::ArgExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(143) : see declaration of 'Iex_2_2::ArgExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(145): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::LogicExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(145) : see declaration of 'Iex_2_2::LogicExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(150): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::InputExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(150) : see declaration of 'Iex_2_2::InputExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(152): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::IoExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(152) : see declaration of 'Iex_2_2::IoExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(154): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::MathExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(154) : see declaration of 'Iex_2_2::MathExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(158): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::ErrnoExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(158) : see declaration of 'Iex_2_2::ErrnoExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(163): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::NoImplExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(163) : see declaration of 'Iex_2_2::NoImplExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(169): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::NullExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(169) : see declaration of 'Iex_2_2::NullExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(171): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::TypeExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(171) : see declaration of 'Iex_2_2::TypeExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testQuatSetRotation.cpp(147): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testQuatSetRotation.cpp(148): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+         testQuatSlerp.cpp
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(143): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::ArgExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(143) : see declaration of 'Iex_2_2::ArgExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(145): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::LogicExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(145) : see declaration of 'Iex_2_2::LogicExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(150): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::InputExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(150) : see declaration of 'Iex_2_2::InputExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(152): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::IoExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(152) : see declaration of 'Iex_2_2::IoExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(154): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::MathExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(154) : see declaration of 'Iex_2_2::MathExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(158): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::ErrnoExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(158) : see declaration of 'Iex_2_2::ErrnoExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(163): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::NoImplExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(163) : see declaration of 'Iex_2_2::NoImplExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(169): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::NullExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(169) : see declaration of 'Iex_2_2::NullExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(171): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::TypeExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(171) : see declaration of 'Iex_2_2::TypeExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testQuatSlerp.cpp(126): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testQuatSlerp.cpp(138): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testQuatSlerp.cpp(169): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testQuatSlerp.cpp(170): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+         testRandom.cpp
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(143): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::ArgExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(143) : see declaration of 'Iex_2_2::ArgExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(145): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::LogicExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(145) : see declaration of 'Iex_2_2::LogicExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(150): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::InputExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(150) : see declaration of 'Iex_2_2::InputExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(152): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::IoExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(152) : see declaration of 'Iex_2_2::IoExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(154): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::MathExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(154) : see declaration of 'Iex_2_2::MathExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(158): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::ErrnoExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(158) : see declaration of 'Iex_2_2::ErrnoExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(163): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::NoImplExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(163) : see declaration of 'Iex_2_2::NoImplExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(169): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::NullExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(169) : see declaration of 'Iex_2_2::NullExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(171): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::TypeExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(171) : see declaration of 'Iex_2_2::TypeExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testRandom.cpp(179): warning C4244: 'argument' : conversion from 'const double' to 'float', possible loss of data
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testRandom.cpp(244) : see reference to function template instantiation 'void `anonymous-namespace'::testGenerator<Imath_2_2::Rand32>(void)' being compiled
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testRandom.cpp(182): warning C4244: 'argument' : conversion from 'const double' to 'float', possible loss of data
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testRandom.cpp(118): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testRandom.cpp(247) : see reference to function template instantiation 'void `anonymous-namespace'::testGenerator<Imath_2_2::Rand48>(void)' being compiled
+         testRoots.cpp
+         Generating Code...
+         Compiling...
+         testShear.cpp
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(143): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::ArgExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(143) : see declaration of 'Iex_2_2::ArgExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(145): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::LogicExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(145) : see declaration of 'Iex_2_2::LogicExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(150): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::InputExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(150) : see declaration of 'Iex_2_2::InputExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(152): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::IoExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(152) : see declaration of 'Iex_2_2::IoExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(154): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::MathExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(154) : see declaration of 'Iex_2_2::MathExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(158): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::ErrnoExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(158) : see declaration of 'Iex_2_2::ErrnoExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(163): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::NoImplExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(163) : see declaration of 'Iex_2_2::NoImplExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(169): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::NullExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(169) : see declaration of 'Iex_2_2::NullExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(171): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::TypeExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(171) : see declaration of 'Iex_2_2::TypeExc'
+         testTinySVD.cpp
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(143): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::ArgExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(143) : see declaration of 'Iex_2_2::ArgExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(145): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::LogicExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(145) : see declaration of 'Iex_2_2::LogicExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(150): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::InputExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(150) : see declaration of 'Iex_2_2::InputExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(152): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::IoExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(152) : see declaration of 'Iex_2_2::IoExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(154): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::MathExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(154) : see declaration of 'Iex_2_2::MathExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(158): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::ErrnoExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(158) : see declaration of 'Iex_2_2::ErrnoExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(163): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::NoImplExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(163) : see declaration of 'Iex_2_2::NoImplExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(169): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::NullExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(169) : see declaration of 'Iex_2_2::NullExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(171): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::TypeExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(171) : see declaration of 'Iex_2_2::TypeExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testTinySVD.cpp(271): warning C4305: 'argument' : truncation from 'double' to 'const float'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testTinySVD.cpp(355) : see reference to function template instantiation 'void testTinySVDImp<float>(void)' being compiled
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testTinySVD.cpp(272): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testTinySVD.cpp(275): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testTinySVD.cpp(284): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testTinySVD.cpp(288): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testTinySVD.cpp(292): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testTinySVD.cpp(296): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testTinySVD.cpp(300): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testTinySVD.cpp(304): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testTinySVD.cpp(308): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testTinySVD.cpp(316): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testTinySVD.cpp(320): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testTinySVD.cpp(324): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testTinySVD.cpp(329): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testTinySVD.cpp(334): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testTinySVD.cpp(344): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\testTinySVD.cpp(345): warning C4305: 'argument' : truncation from 'double' to 'float'
+         testVec.cpp
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(143): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::ArgExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(143) : see declaration of 'Iex_2_2::ArgExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(145): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::LogicExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(145) : see declaration of 'Iex_2_2::LogicExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(150): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::InputExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(150) : see declaration of 'Iex_2_2::InputExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(152): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::IoExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(152) : see declaration of 'Iex_2_2::IoExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(154): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::MathExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(154) : see declaration of 'Iex_2_2::MathExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(158): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::ErrnoExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(158) : see declaration of 'Iex_2_2::ErrnoExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(163): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::NoImplExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(163) : see declaration of 'Iex_2_2::NoImplExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(169): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::NullExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(169) : see declaration of 'Iex_2_2::NullExc'
+     1>C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(171): warning C4275: non dll-interface class 'Iex_2_2::BaseExc' used as base for dll-interface class 'Iex_2_2::TypeExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(60) : see declaration of 'Iex_2_2::BaseExc'
+                 C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\Iex\IexBaseExc.h(171) : see declaration of 'Iex_2_2::TypeExc'
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\Release\ImathTest.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "..\Imath\Release\Imath-2_2.lib" "..\Iex\Release\Iex-2_2.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/ImathTest/Release/ImathTest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/ImathTest/Release/ImathTest.lib" /MACHINE:X64  /machine:x64 ImathTest.dir\Release\main.obj
+         ImathTest.dir\Release\testBox.obj
+         ImathTest.dir\Release\testBoxAlgo.obj
+         ImathTest.dir\Release\testColor.obj
+         ImathTest.dir\Release\testExtractEuler.obj
+         ImathTest.dir\Release\testExtractSHRT.obj
+         ImathTest.dir\Release\testFrustum.obj
+         ImathTest.dir\Release\testFrustumTest.obj
+         ImathTest.dir\Release\testFun.obj
+         ImathTest.dir\Release\testInvert.obj
+         ImathTest.dir\Release\testJacobiEigenSolver.obj
+         ImathTest.dir\Release\testLineAlgo.obj
+         ImathTest.dir\Release\testMatrix.obj
+         ImathTest.dir\Release\testMiscMatrixAlgo.obj
+         ImathTest.dir\Release\testProcrustes.obj
+         ImathTest.dir\Release\testQuat.obj
+         ImathTest.dir\Release\testQuatSetRotation.obj
+         ImathTest.dir\Release\testQuatSlerp.obj
+         ImathTest.dir\Release\testRandom.obj
+         ImathTest.dir\Release\testRoots.obj
+         ImathTest.dir\Release\testShear.obj
+         ImathTest.dir\Release\testTinySVD.obj
+         ImathTest.dir\Release\testVec.obj
+         ImathTest.vcxproj -> C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\Release\ImathTest.exe
+     1>Done Building Project "C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ImathTest\ImathTest.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:11.85

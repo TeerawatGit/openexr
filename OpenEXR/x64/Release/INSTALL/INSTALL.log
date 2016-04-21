@@ -1,0 +1,155 @@
+﻿Build started 20/4/2559 16:47:14.
+     1>Project "C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\INSTALL.vcxproj" on node 2 (Build target(s)).
+     1>PostBuildEvent:
+         setlocal
+         "C:\Program Files (x86)\CMake\bin\cmake.exe" -DBUILD_TYPE=Release -P cmake_install.cmake
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         :VCEnd
+         -- Install configuration: "Release"
+         -- Installing: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/OpenEXRConfig.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/share/doc/OpenEXR-2.2.0/TechnicalIntroduction.pdf
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/share/doc/OpenEXR-2.2.0/ReadingAndWritingImageFiles.pdf
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/share/doc/OpenEXR-2.2.0/OpenEXRFileLayout.pdf
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/share/doc/OpenEXR-2.2.0/MultiViewOpenEXR.pdf
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/share/doc/OpenEXR-2.2.0/InterpretingDeepPixels.pdf
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/share/doc/OpenEXR-2.2.0/TheoryDeepPixels.pdf
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/share/doc/OpenEXR-2.2.0/examples/main.cpp
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/share/doc/OpenEXR-2.2.0/examples/drawImage.cpp
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/share/doc/OpenEXR-2.2.0/examples/rgbaInterfaceExamples.cpp
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/share/doc/OpenEXR-2.2.0/examples/rgbaInterfaceTiledExamples.cpp
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/share/doc/OpenEXR-2.2.0/examples/generalInterfaceExamples.cpp
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/share/doc/OpenEXR-2.2.0/examples/lowLevelIoExamples.cpp
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/share/doc/OpenEXR-2.2.0/examples/previewImageExamples.cpp
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/share/doc/OpenEXR-2.2.0/examples/generalInterfaceTiledExamples.cpp
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/share/doc/OpenEXR-2.2.0/examples/generalInterfaceTiledExamples.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/share/doc/OpenEXR-2.2.0/examples/drawImage.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/share/doc/OpenEXR-2.2.0/examples/rgbaInterfaceExamples.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/share/doc/OpenEXR-2.2.0/examples/generalInterfaceExamples.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/share/doc/OpenEXR-2.2.0/examples/rgbaInterfaceTiledExamples.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/share/doc/OpenEXR-2.2.0/examples/lowLevelIoExamples.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/share/doc/OpenEXR-2.2.0/examples/previewImageExamples.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/share/doc/OpenEXR-2.2.0/examples/namespaceAlias.h
+         -- Installing: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/lib/IlmImf-2_2.lib
+         -- Installing: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/lib/IlmImf-2_2.dll
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfForward.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfExport.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfAttribute.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfBoxAttribute.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfCRgbaFile.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfChannelList.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfChannelListAttribute.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfCompressionAttribute.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfDoubleAttribute.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfFloatAttribute.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfFrameBuffer.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfHeader.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfIO.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfInputFile.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfIntAttribute.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfLineOrderAttribute.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfMatrixAttribute.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfOpaqueAttribute.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfOutputFile.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfRgbaFile.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfStringAttribute.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfVecAttribute.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfHuf.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfWav.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfLut.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfArray.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfCompression.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfLineOrder.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfName.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfPixelType.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfVersion.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfXdr.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfConvert.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfPreviewImage.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfPreviewImageAttribute.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfChromaticities.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfChromaticitiesAttribute.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfKeyCode.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfKeyCodeAttribute.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfTimeCode.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfTimeCodeAttribute.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfRational.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfRationalAttribute.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfFramesPerSecond.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfStandardAttributes.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfEnvmap.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfEnvmapAttribute.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfInt64.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfRgba.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfTileDescription.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfTileDescriptionAttribute.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfTiledInputFile.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfTiledOutputFile.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfTiledRgbaFile.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfRgbaYca.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfTestFile.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfThreading.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfB44Compressor.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfStringVectorAttribute.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfMultiView.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfAcesFile.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfMultiPartOutputFile.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfGenericOutputFile.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfMultiPartInputFile.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfGenericInputFile.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfPartType.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfPartHelper.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfOutputPart.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfTiledOutputPart.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfInputPart.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfTiledInputPart.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfDeepScanLineOutputFile.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfDeepScanLineOutputPart.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfDeepScanLineInputFile.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfDeepScanLineInputPart.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfDeepTiledInputFile.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfDeepTiledInputPart.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfDeepTiledOutputFile.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfDeepTiledOutputPart.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfDeepFrameBuffer.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfDeepCompositing.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfCompositeDeepScanLine.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfNamespace.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfMisc.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfDeepImageState.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfDeepImageStateAttribute.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfFloatVectorAttribute.h
+         -- Installing: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/lib/IlmImfUtil-2_2.lib
+         -- Installing: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/lib/IlmImfUtil-2_2.dll
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfImageChannel.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfFlatImageChannel.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfDeepImageChannel.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfSampleCountChannel.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfImageLevel.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfFlatImageLevel.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfDeepImageLevel.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfImage.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfFlatImage.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfDeepImage.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfImageIO.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfFlatImageIO.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfDeepImageIO.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfImageDataWindow.h
+         -- Up-to-date: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/ImfImageChannelRenaming.h
+         -- Installing: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/bin/exrheader.exe
+         -- Installing: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/bin/exrmaketiled.exe
+         -- Installing: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/bin/exrstdattr.exe
+         -- Installing: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/bin/exrmakepreview.exe
+         -- Installing: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/bin/exrenvmap.exe
+         -- Installing: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/bin/exrmultiview.exe
+         -- Installing: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/bin/exrmultipart.exe
+     1>Done Building Project "C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\INSTALL.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.67

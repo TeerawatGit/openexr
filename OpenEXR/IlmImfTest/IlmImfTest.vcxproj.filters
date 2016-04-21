@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfTest\compareB44.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfTest\compareDwa.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfTest\compareFloat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfTest\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfTest\testAttributes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfTest\testBackwardCompatibility.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfTest\testBadTypeAttributes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfTest\testChannels.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfTest\testCompositeDeepScanLine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfTest\testCompression.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfTest\testConversion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfTest\testCopyDeepScanLine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfTest\testCopyDeepTiled.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfTest\testCopyMultiPartFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfTest\testCopyPixels.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfTest\testCustomAttributes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfTest\testDeepScanLineBasic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfTest\testDeepScanLineHuge.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfTest\testDeepScanLineMultipleRead.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfTest\testDeepTiledBasic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfTest\testDwaCompressorSimd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfTest\testExistingStreams.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfTest\testFutureProofing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfTest\testHuf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfTest\testInputPart.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfTest\testIsComplete.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfTest\testLineOrder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfTest\testLut.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfTest\testMagic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfTest\testMultiPartApi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfTest\testMultiPartFileMixingBasic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfTest\testMultiPartSharedAttributes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfTest\testMultiPartThreading.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfTest\testMultiScanlinePartThreading.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfTest\testMultiTiledPartThreading.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfTest\testMultiView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfTest\testNativeFormat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfTest\testOptimized.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfTest\testOptimizedInterleavePatterns.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfTest\testPartHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfTest\testPreviewImage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfTest\testRgba.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfTest\testRgbaThreading.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfTest\testRle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfTest\testSampleImages.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfTest\testScanLineApi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfTest\testSharedFrameBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfTest\testStandardAttributes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfTest\testTiledCompression.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfTest\testTiledCopyPixels.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfTest\testTiledLineOrder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfTest\testTiledRgba.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfTest\testTiledYa.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfTest\testWav.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfTest\testXdr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfTest\testYca.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\IlmImfTest\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{62295936-72ED-3E52-80BD-69F60E9BE136}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

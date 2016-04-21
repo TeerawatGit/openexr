@@ -1,0 +1,18 @@
+﻿Build started 20/4/2559 16:12:38.
+     1>Project "C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ZERO_CHECK.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Checking Build System
+         CMake does not need to re-run because C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/Half/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/Iex/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/IexMath/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/Imath/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/IlmThread/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/HalfTest/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/IexTest/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Users/teeerawat/Desktop/OpenEXR/openexr/IlmBase/ImathTest/CMakeFiles/generate.stamp is up-to-date.
+     1>Done Building Project "C:\Users\teeerawat\Desktop\OpenEXR\openexr\IlmBase\ZERO_CHECK.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.10

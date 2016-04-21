@@ -1,0 +1,60 @@
+﻿Build started 20/4/2559 14:04:08.
+     1>Project "C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\INSTALL.vcxproj" on node 5 (Build target(s)).
+     1>PostBuildEvent:
+         setlocal
+         "C:\Program Files (x86)\CMake\bin\cmake.exe" -DBUILD_TYPE=Debug -P cmake_install.cmake
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         :VCEnd
+         -- Install configuration: "Debug"
+         -- Installing: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/include/OpenEXR/OpenEXRConfig.h
+         -- Installing: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/share/doc/OpenEXR-2.2.0/TechnicalIntroduction.pdf
+         -- Installing: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/share/doc/OpenEXR-2.2.0/ReadingAndWritingImageFiles.pdf
+         -- Installing: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/share/doc/OpenEXR-2.2.0/OpenEXRFileLayout.pdf
+         -- Installing: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/share/doc/OpenEXR-2.2.0/MultiViewOpenEXR.pdf
+         -- Installing: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/share/doc/OpenEXR-2.2.0/InterpretingDeepPixels.pdf
+         -- Installing: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/share/doc/OpenEXR-2.2.0/TheoryDeepPixels.pdf
+         -- Installing: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/share/doc/OpenEXR-2.2.0/examples/main.cpp
+         -- Installing: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/share/doc/OpenEXR-2.2.0/examples/drawImage.cpp
+         -- Installing: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/share/doc/OpenEXR-2.2.0/examples/rgbaInterfaceExamples.cpp
+         -- Installing: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/share/doc/OpenEXR-2.2.0/examples/rgbaInterfaceTiledExamples.cpp
+         -- Installing: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/share/doc/OpenEXR-2.2.0/examples/generalInterfaceExamples.cpp
+         -- Installing: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/share/doc/OpenEXR-2.2.0/examples/lowLevelIoExamples.cpp
+         -- Installing: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/share/doc/OpenEXR-2.2.0/examples/previewImageExamples.cpp
+         -- Installing: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/share/doc/OpenEXR-2.2.0/examples/generalInterfaceTiledExamples.cpp
+         -- Installing: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/share/doc/OpenEXR-2.2.0/examples/generalInterfaceTiledExamples.h
+         -- Installing: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/share/doc/OpenEXR-2.2.0/examples/drawImage.h
+         -- Installing: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/share/doc/OpenEXR-2.2.0/examples/rgbaInterfaceExamples.h
+         -- Installing: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/share/doc/OpenEXR-2.2.0/examples/generalInterfaceExamples.h
+         -- Installing: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/share/doc/OpenEXR-2.2.0/examples/rgbaInterfaceTiledExamples.h
+         -- Installing: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/share/doc/OpenEXR-2.2.0/examples/lowLevelIoExamples.h
+         -- Installing: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/share/doc/OpenEXR-2.2.0/examples/previewImageExamples.h
+         -- Installing: C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/_build/share/doc/OpenEXR-2.2.0/examples/namespaceAlias.h
+         CMake Error at IlmImf/cmake_install.cmake:84 (file):
+           file INSTALL cannot find
+           "C:/Users/teeerawat/Desktop/OpenEXR/openexr/OpenEXR/IlmImf/Debug/IlmImf-2_2.dll".
+         Call Stack (most recent call first):
+           cmake_install.cmake:92 (include)
+           
+         
+         
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(132,5): error MSB3073: The command "setlocal
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(132,5): error MSB3073: "C:\Program Files (x86)\CMake\bin\cmake.exe" -DBUILD_TYPE=Debug -P cmake_install.cmake
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(132,5): error MSB3073: if %errorlevel% neq 0 goto :cmEnd
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(132,5): error MSB3073: :cmEnd
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(132,5): error MSB3073: endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(132,5): error MSB3073: :cmErrorLevel
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(132,5): error MSB3073: exit /b %1
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(132,5): error MSB3073: :cmDone
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(132,5): error MSB3073: if %errorlevel% neq 0 goto :VCEnd
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(132,5): error MSB3073: :VCEnd" exited with code 1.
+     1>Done Building Project "C:\Users\teeerawat\Desktop\OpenEXR\openexr\OpenEXR\INSTALL.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.70
